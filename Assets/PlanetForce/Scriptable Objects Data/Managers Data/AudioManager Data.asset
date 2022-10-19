@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed858e80af8a19e409c5ac3696f132ef, type: 3}
+  m_Name: AudioManager Data
+  m_EditorClassIdentifier: 
+  inGameMusic:
+  - {fileID: 8300000, guid: e3e7701b77e53104fbe58cd05adfa476, type: 3}
+  - {fileID: 8300000, guid: f89382231c51c85429c7fad21fc62f3e, type: 3}
+  - {fileID: 8300000, guid: cb7dd15640d6a6149aa2507d10a6c46f, type: 3}
+  powerUpMusic:
+  - {fileID: 8300000, guid: 8eb16d4c36bf2784098d1dd61ce0b420, type: 3}
+  - {fileID: 8300000, guid: 77e447a29d86acf4cb1a1e35e65f038a, type: 3}
+  startGameMusic:
+  - {fileID: 8300000, guid: a424a7efef3b9394e869cc945475ebb4, type: 3}
+  - {fileID: 8300000, guid: d58673569bb3a524baa002315da4d095, type: 3}
+  gameOverMusic:
+  - {fileID: 8300000, guid: ffc0e1d5b85bf984b92b6fd7cfc08d01, type: 3}
+  hiScoreMusic:
+  - {fileID: 8300000, guid: bd82748353a614947abe59f128e19868, type: 3}
+  theEndMusic:
+  - {fileID: 8300000, guid: 9f7ab4533b1d6704b930ed34d6344adb, type: 3}
+  pressEnter: {fileID: 8300000, guid: dc192ba998defe8468c8cd473d7e9dc5, type: 3}
+  extraLife:
+  - {fileID: 8300000, guid: f1fa0bfc2d5ec9e4fae4aee5e2a3f040, type: 3}
+  - {fileID: 8300000, guid: a4b4ed7a66281784690561d1eb431dfc, type: 3}
+  - {fileID: 8300000, guid: 8b47703deb16c0743bb2e60cb3393e2d, type: 3}

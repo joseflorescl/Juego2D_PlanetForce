@@ -1,0 +1,2426 @@
+fileFormatVersion: 2
+guid: bed11d261c7f0c34199b80e229336ef2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Xevious - Enemy A 00
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 273
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab818a404522ab4490c6684da569c72
+      internalID: -720806609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A 01
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 273
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3965a5ba6c8a84d9019dcad2681cf7
+      internalID: -2010254419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A 02
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 273
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8bd1a9061aa634b8ba8997479696da
+      internalID: 617678484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A 03
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 273
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd655ce3a254e0943bc0b33c7c3d8378
+      internalID: 1857059673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A 04
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 273
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ec83c3a7e5b054284d567b633c1bf8
+      internalID: -1513668962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A 05
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 273
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d5c3f61f6000444baa5525f83dc620
+      internalID: -388405476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A 06
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 273
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5f6a97c83414246820b073552d95c4
+      internalID: -685968342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 276
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e243a927fbb36148a58ae4d2a51efc3
+      internalID: -947891587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_8
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 276
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2848e90bb93744418b6a6ec2783b661
+      internalID: -347291843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet 00
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 276
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421e3ad8b52746645ab4b928e35a3324
+      internalID: 2027219728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet 01
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 276
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc86ba349f53d74e97020066250990a
+      internalID: -1689591063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet 02
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 276
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd49494513b4ed4ba06ca8d0485bd09
+      internalID: 799611006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 255
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b236cc24848a5848a7def0bc6082814
+      internalID: 442075268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy B 00
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 243
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd7d109524f4c8488c29b9a8e1461ba
+      internalID: -814956253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 245
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e730463fbf7ca459f44c9433d0bd1d
+      internalID: -712490721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_16
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 245
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2366926021c06438f0025edf2e989b
+      internalID: 833550490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 245
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8709ba116848846ac482baccf9ce55
+      internalID: -1829508196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 245
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4973f43bbd4ff3a42980c113cc1b6c37
+      internalID: -1384226943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 244
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb7bb5f87800774185167de74fe4f98
+      internalID: -978763233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 248
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b9a24d62504f74e898236130ee5aa3
+      internalID: 1604427006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_21
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 248
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01c6a34bc8df8448afd6914c013e4dd
+      internalID: 231578161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_22
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 253
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4c5ad2af6669a4ab18e9106578a146
+      internalID: -1648572671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 240
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636cc3d5c97ff14459b5e3c3040397ae
+      internalID: 107711907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 240
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b265aae7120cf4647aafbe1e8b45d2ff
+      internalID: 50739813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_25
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 241
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae76300c537a864c949db868ec0fffb
+      internalID: -555962378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A1 00
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 239
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88a7f67cc546c846a8136669cc99f2e
+      internalID: -724119278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A1 01
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 239
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5427d7ed121a5b04fb36daccb7eefdf1
+      internalID: 2124603496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A1 02
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 239
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2b58004f4a01b4eb2338a6a5b08509
+      internalID: 62995424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A1 03
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 239
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7553c373894ff54409443f068df39035
+      internalID: -793980349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy A1 04
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 239
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e21996a1eb9184293f0a274f67bf65
+      internalID: -616513622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy C 00
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabbc7360a3ab5e4db1e39d07247799e
+      internalID: 1575991260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy C 01
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44b5d3d0f7da284d9f6e14bed115c18
+      internalID: 767405350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy C 02
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da048c0707188f14b82cd293e4fd3b09
+      internalID: 498878296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy C 03
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c81bc5e3b3843469f520e9ceb5217f
+      internalID: 98420562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_35
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 220
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ec2a1537b92b946a71555e9c5ec791
+      internalID: -1114272219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy D 00
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 188
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f79103da345b4f47a9f1496db1eca61
+      internalID: -859177020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_37
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 188
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaac4a0046d89024699a37d9ed5024ac
+      internalID: 1074930790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 188
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae2f06b3f22898488735695a796c433
+      internalID: -2015238839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_39
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 188
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99d51c2e1601dd4d9fa6cc4190f19ff
+      internalID: 1212532218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 188
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95ba7e2c532b0149b6a5954363d6206
+      internalID: -65076207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_41
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 188
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f1aadb499ab24e8e667daa98cc57a
+      internalID: 368939303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_42
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 192
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eaa0847a3bf254989b65e6660770e0
+      internalID: 940155512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_43
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 192
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0525d4d0fa718c74a9f5e8671d4bcf34
+      internalID: 2095123652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy E 00
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d74f8083cc37b84ba9eb456eafb595c
+      internalID: -2089298556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 160
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c649dbc656e3f9541ad3ca380258c9a3
+      internalID: -1760683980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_46
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 161
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f728f564b0117b478db120db4a9bf27
+      internalID: -1443727249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_47
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 164
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ddad3799282ed4ea84c7d08c54f048
+      internalID: 1127433991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_48
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 164
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a57a88b8268c344be731034a627ebf
+      internalID: 2009910017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_49
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 161
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4cbcd484909a34fbf1f2f2f75716a4
+      internalID: 1056167925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_50
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6637a9c86111542899f74b12ccfcb0
+      internalID: 908274159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_51
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 163
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4df1449db04ae3489d737477a76ad98
+      internalID: -778450933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy F 00
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aade1764dbbe6b48abfcfee0c0cabe3
+      internalID: -2130392622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_53
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 131
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd948066bbbce5479ecd0fa95d265cd
+      internalID: 191489576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 131
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9ed84cdbddd554fad83e1df69db9d8
+      internalID: 165913522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_55
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 131
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c68b036f918d249ba9ea6382a93796
+      internalID: -267169899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_56
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 131
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f96131fe33127418c3b7269c496658
+      internalID: 1552060377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_57
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 131
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2189d84a4106e0469f994b8d8e97e96
+      internalID: 1329435711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_58
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca3da3252aea2f4899bbdf3cc79c702
+      internalID: 918366608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_59
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 135
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a467a5516284f2f4ea31cadbcb46fa35
+      internalID: -506716338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_60
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 135
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5c7754a4e48f94298a9c2d319c8d38
+      internalID: 1008776051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Zakato
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 108
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fca207059043094c8a839c91ff9c161
+      internalID: 1501962486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_62
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 108
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c554fa5a2ee6a9b488c94d0dd3af494f
+      internalID: 342299227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Zakato Brag
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d3c53ef5a6e154a87b075e5dc48527
+      internalID: 1326775772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_64
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 88
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45a25657bbec2a4d88d5cc446c941fd
+      internalID: 16858404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_65
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 90
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c747dd154d10c3948a930f46702f5780
+      internalID: -1980695593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_66
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 69
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c891fb496c3e8aa4f9670dfb06d58173
+      internalID: -1420669239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_67
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 69
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fffd591d85c170489ae4a717a961fde
+      internalID: 423310336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_68
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0ff9d5e216b7e49972759ff0c6fffb
+      internalID: -2060654292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_69
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a08d2ae37912534da710410091aa5c9
+      internalID: -828700082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_70
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fae81c576cb8a479d14b8047da8cd7
+      internalID: 265600800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ed59ad21f3db14f979c8d6a23b91c1
+      internalID: -1852738564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_72
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 67
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f178ced69fb304b932efa510225e4a
+      internalID: -584549125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_73
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 67
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15971669ad7ce64b9f8214b395438b4
+      internalID: -396397114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_74
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 67
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a273c16c64e961b409941fdbe56b8a69
+      internalID: -862740758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_75
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 67
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ebcd604a424364ead0f65ef44ed95d
+      internalID: 1852626098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_76
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 67
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa92c06d9cec8e4f8b693cab051f125
+      internalID: 566465533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_77
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 67
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f50a30433e0d9a47b40680ec0e29138
+      internalID: 920624389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_78
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 72
+        width: 50
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f4816b353aae446aee096239490ccd
+      internalID: 434387309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Bacura 00
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 42
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e1add0b4cfc9449a994b9eb2b18ec2
+      internalID: 1098177787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Bacura 01
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 39
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89a30fd5277110428bb32a97f998481
+      internalID: 25611724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Bacura 02
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 37
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a1dd0007ce763408acc140e8617a98
+      internalID: 1763150739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Bacura 03
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 37
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd4afdddca574246bb96a176c2c4da8
+      internalID: -962113786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Bacura 04
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 36
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab26a9eb3b7f8b4a928a0de796fcb85
+      internalID: 946796860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Bacura 05
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 37
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0779bfe6497034aaf5ef0db7ecf531
+      internalID: 589452778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Bacura 06
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 37
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7f25629efc21942bf6b0ccf122cff8
+      internalID: -280460725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Bacura 07
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 40
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ed472462a9a9340bfe86645ceb234f
+      internalID: -714578664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_87
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 41
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f39364efd787744ea06ab2ebb873217
+      internalID: -801126145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 00
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a139c310d00c9294184454163e56f14f
+      internalID: 1612225097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 01
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b181b91a486844a4b88ab43e3cb8ae7d
+      internalID: -848015801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 02
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658969053024cd940b2ebea4928019a1
+      internalID: 1479428444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 03
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ce01af32e230f459cf31c83ee016ec
+      internalID: -1800642371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 04
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf659d53d233d5247a44709851bb8e37
+      internalID: 1954980220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 05
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed155256288aa440a5fb2c773f20347
+      internalID: -491465766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 06
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bef01cfa101ef343a8ed4fbc94d1f47
+      internalID: 80711447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 07
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c97ca1061bfd994888c5e22dca5e91a
+      internalID: -54921394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 08
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4130ffdef13a8b445bfdd7cfe7949e0d
+      internalID: 2003991580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 09
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0992b3f7424f4418700e613ec21d46
+      internalID: 1775074670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f640e0350adfdd1448892a0f0f142c37
+      internalID: 698738999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec834884fc67d840a67dc2b52969286
+      internalID: -1513571242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet B 12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d737ddfd40513744185b91f4406e5668
+      internalID: 1146322652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_101
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 7
+        width: 50
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e0f57587a96d0409e27e709db9965e
+      internalID: 184944994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Aerial Enemies_102
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 9
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c51d3494cefdb34186ff57c58d31d17
+      internalID: 1818757428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xevious - Enemy Bullet 03
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 276
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a48bfff174f264fbb10308b7bc175c
+      internalID: 793010459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Xevious - Aerial Enemies_25: -555962378
+      Xevious - Enemy A1 01: 2124603496
+      Xevious - Aerial Enemies_78: 434387309
+      Xevious - Enemy A 00: -720806609
+      Xevious - Enemy C 00: 1575991260
+      Xevious - Aerial Enemies_65: -1980695593
+      Xevious - Aerial Enemies_76: 566465533
+      Xevious - Enemy E 00: -2089298556
+      Xevious - Enemy Bullet 03: 793010459
+      Xevious - Enemy D 00: -859177020
+      Xevious - Enemy Bullet B 08: 2003991580
+      Xevious - Enemy Bullet B 04: 1954980220
+      Xevious - Aerial Enemies_59: -506716338
+      Xevious - Enemy C 02: 498878296
+      Xevious - Aerial Enemies_68: -2060654292
+      Xevious - Enemy A 05: -388405476
+      Xevious - Aerial Enemies_58: 918366608
+      Xevious - Aerial Enemies_8: -347291843
+      Xevious - Aerial Enemies_50: 908274159
+      Xevious - Enemy A 04: -1513668962
+      Xevious - Enemy A 06: -685968342
+      Xevious - Enemy Bullet B 00: 1612225097
+      Xevious - Enemy Bullet B 05: -491465766
+      Xevious - Enemy Bullet B 10: 698738999
+      Xevious - Aerial Enemies_13: 442075268
+      Xevious - Enemy Bullet B 07: -54921394
+      Xevious - Enemy Bullet B 01: -848015801
+      Xevious - Bacura 02: 1763150739
+      Xevious - Enemy Bullet B 12: 1146322652
+      Xevious - Aerial Enemies_45: -1760683980
+      Xevious - Enemy Bullet B 02: 1479428444
+      Xevious - Enemy A 02: 617678484
+      Xevious - Bacura 06: -280460725
+      Xevious - Enemy A1 02: 62995424
+      Xevious - Aerial Enemies_56: 1552060377
+      Xevious - Aerial Enemies_37: 1074930790
+      Xevious - Aerial Enemies_49: 1056167925
+      Xevious - Aerial Enemies_7: -947891587
+      Xevious - Aerial Enemies_72: -584549125
+      Xevious - Aerial Enemies_12: -1180280152
+      Xevious - Aerial Enemies_18: -1384226943
+      Xevious - Aerial Enemies_64: 16858404
+      Xevious - Aerial Enemies_75: 1852626098
+      Xevious - Aerial Enemies_39: 1212532218
+      Xevious - Aerial Enemies_47: 1127433991
+      Xevious - Aerial Enemies_17: -1829508196
+      Xevious - Bacura 05: 589452778
+      Xevious - Enemy Bullet B 06: 80711447
+      Xevious - Zakato: 1501962486
+      Xevious - Aerial Enemies_77: 920624389
+      Xevious - Enemy Bullet 02: 799611006
+      Xevious - Enemy F 00: -2130392622
+      Xevious - Zakato Brag: 1326775772
+      Xevious - Enemy A 03: 1857059673
+      Xevious - Enemy A 01: -2010254419
+      Xevious - Aerial Enemies_51: -778450933
+      Xevious - Aerial Enemies_102: 1818757428
+      Xevious - Aerial Enemies_66: -1420669239
+      Xevious - Bacura 03: -962113786
+      Xevious - Aerial Enemies_23: 107711907
+      Xevious - Aerial Enemies_43: 2095123652
+      Xevious - Aerial Enemies_74: -862740758
+      Xevious - Aerial Enemies_70: 265600800
+      Xevious - Aerial Enemies_16: 833550490
+      Xevious - Aerial Enemies_19: -978763233
+      Xevious - Enemy Bullet 01: -1689591063
+      Xevious - Aerial Enemies_71: -1852738564
+      Xevious - Aerial Enemies_67: 423310336
+      Xevious - Aerial Enemies_24: 50739813
+      Xevious - Enemy C 01: 767405350
+      Xevious - Enemy Bullet B 09: 1775074670
+      Xevious - Aerial Enemies_20: 1604427006
+      Xevious - Aerial Enemies_42: 940155512
+      Xevious - Aerial Enemies_87: -801126145
+      Xevious - Aerial Enemies_40: -65076207
+      Xevious - Enemy A1 00: -724119278
+      Xevious - Aerial Enemies_55: -267169899
+      Xevious - Aerial Enemies_73: -396397114
+      Xevious - Enemy Bullet B 11: -1513571242
+      Xevious - Aerial Enemies_22: -1648572671
+      Xevious - Aerial Enemies_15: -712490721
+      Xevious - Aerial Enemies_46: -1443727249
+      Xevious - Aerial Enemies_60: 1008776051
+      Xevious - Aerial Enemies_21: 231578161
+      Xevious - Bacura 01: 25611724
+      Xevious - Aerial Enemies_62: 342299227
+      Xevious - Aerial Enemies_57: 1329435711
+      Xevious - Aerial Enemies_41: 368939303
+      Xevious - Aerial Enemies_35: -1114272219
+      Xevious - Aerial Enemies_101: 184944994
+      Xevious - Aerial Enemies_53: 191489576
+      Xevious - Aerial Enemies_38: -2015238839
+      Xevious - Bacura 00: 1098177787
+      Xevious - Aerial Enemies_48: 2009910017
+      Xevious - Enemy Bullet B 03: -1800642371
+      Xevious - Bacura 07: -714578664
+      Xevious - Aerial Enemies_54: 165913522
+      Xevious - Bacura 04: 946796860
+      Xevious - Aerial Enemies_69: -828700082
+      Xevious - Enemy Bullet 00: 2027219728
+      Xevious - Enemy B 00: -814956253
+      Xevious - Enemy C 03: 98420562
+      Xevious - Enemy A1 03: -793980349
+      Xevious - Enemy A1 04: -616513622
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

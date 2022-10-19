@@ -1,0 +1,3547 @@
+fileFormatVersion: 2
+guid: 8651ec794c95ce944bf6fa70a7f8a204
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vulgus - Enemy A
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 165
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c18302797d54864db75f1209db1d74d
+      internalID: -1552453210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 165
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5600cec53b96048a309643d6b74711
+      internalID: 1887624542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ffc2437d9bead4fb99afc438faeabe
+      internalID: -918402982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 165
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6150cd7974557b14cacfd69f0525ada7
+      internalID: 2126706757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a90f5365ace02f4481066df7f8826ff
+      internalID: -152163411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 165
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efbb39c8980ee74d84c5e1e1eb08ebd
+      internalID: -760306024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e9f7590dab15d4fbb141c6636c83bb
+      internalID: -1676150455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 165
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f15033cb369769418d6496a476950e5
+      internalID: 1134233335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 165
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eab0d30ab79bfb4cb5342dd7d84ac79
+      internalID: -420812747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_9
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 165
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861763d3670c1ef439b184ff495d6ab3
+      internalID: 990225445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932b4089308f6ec4ea403a66c41513b1
+      internalID: -556532788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 165
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0181d767a95959f409616e6c14bf398f
+      internalID: 1776442219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_12
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 165
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aded90f753918649afd7889d47ad033
+      internalID: 659169389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 165
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e601294bd258749bd34212e77e6986
+      internalID: -1300145426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 165
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbba05e8defe824a8f67aed312f7bdf
+      internalID: 1453852891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 165
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aac8a50c0bd9bf45ad2bb50d53e273f
+      internalID: -451252722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy B 00
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce55c11272152614e883aeb5efb4e110
+      internalID: -1032758365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy B 01
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d14ccb63da04c4883c9bd8af134701
+      internalID: 23874224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy B 02
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33edfead256df748b285dfa572939fb
+      internalID: 278630553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy B 03
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cf55c04a29f55418c3ce7dbb56c139
+      internalID: 561772523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy B 04
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025f21536cbd7b644a04cdb85e4a282d
+      internalID: -2077206041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy B 05
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0890912a4355a114c9aad8a820c663e2
+      internalID: 708973658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy B 06
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3593048ef3e97b44a960ec02da62e85
+      internalID: -820461186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy C 00
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 144
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90417a79eb7ed041af84dd9dc14034c
+      internalID: 125534167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy C 01
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 144
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17c614bf51aa6346a4f68b34d32b4fd
+      internalID: -1201998084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy C 02
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e891e1d9a72cd4dbd8906bd84505cf
+      internalID: 811372466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy C 03
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eb2d95994e6f647b0295d4c884364f
+      internalID: -1746472576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy C 04
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9390c5d1fc3b3154ea7293de1b6128ef
+      internalID: 1613054509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy C 05
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b98baf7f78c964428e73fcabe75592b
+      internalID: -642487514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy D
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 144
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3603d8e4783679645b63884f7a8da573
+      internalID: 1846576150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_30
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55bca907f4052949ac0057fd97c6820
+      internalID: 379839477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_31
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b272ac30909464da19594e1d6913ca
+      internalID: 532203357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_32
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200c463f3aa4bce42b3e633da69a14bc
+      internalID: 1510907777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_33
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 144
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003b7f977b800d48a23660bd6f34fa4
+      internalID: -948294552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_34
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4043f0a989e40214dac8b9600b6cb5c3
+      internalID: 1817035501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_35
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3521c2b2d4dcb4e87726ba8a43f40e
+      internalID: 1911259880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_36
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babb361cec9f4c84e8e43d43819e1d6d
+      internalID: 18640287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 144
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4667754f9fdf0fb49aa0635ae322d816
+      internalID: 109675678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f320598b2b7124b92774f5f05b9dfc
+      internalID: 2109429142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_39
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e13bfedc7a85c478f568d0131ae532
+      internalID: -1103631610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_40
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f8f13898c4a604e9421c2e3a8fa6df
+      internalID: 949212992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_41
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 144
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4247a540d2868b48ab63bc7caae3edb
+      internalID: -1434160350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_42
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b319a1f6baac641a6671c2ce478050
+      internalID: -1716425250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aabd87cf06cab84ea047843a380dddf
+      internalID: 814383307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_44
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 144
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f89cdc9cf76d041a83b991d2165bae
+      internalID: 136238412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_45
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 150
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53cf13b856317a48aa70b3df58d25b4
+      internalID: -1564314204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy E
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 125
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5507e8f2c447ba4e89712efcba4850d
+      internalID: 869536718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy E 2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61778997d210eff499e3e7d0452cffc5
+      internalID: -453390494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy E 3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 125
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb63ce8b2fd1c540a2ce0a264aeba77
+      internalID: 165029957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy E 4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe3959ccb4e70747afc300368729750
+      internalID: 1620874824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Bullet Center 00
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0842c8dac8853294ca4af0d3ef5ea241
+      internalID: 988616590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Bullet Center 01
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a977d638f9752458b04fc55daaf70c
+      internalID: 38316994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Bullet Center 02
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0535519123d8c4282de19352b508bf
+      internalID: -318857504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Bullet Center 03
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 125
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef423f1b8b3074741a95e6d02e2cbedf
+      internalID: -278489255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 125
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ddeb4d38e50e549b7c172260c0740e
+      internalID: 1262188331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf356eecdf6c1284689b5d67124d661b
+      internalID: -654573154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_56
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 125
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e4f8f569e95b442bce529fd2a62b03
+      internalID: 1367621740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_57
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40ea791eb90adf4ca29da8b175ed198
+      internalID: -53122747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_58
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 125
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74343dc6701f19e4fbac16f2f35d0f17
+      internalID: -358994680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_59
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 125
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25af58525f4d5874aac5c571674da9d8
+      internalID: -1790345773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_60
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 125
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5f493618bc72140b94320673eb72c3
+      internalID: 1710290539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_61
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 125
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1865ddf7287633d4b80cc712d970dcf4
+      internalID: -1968122315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_62
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 125
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8661f6b8837344f4891ea553898b47bf
+      internalID: 1792187024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_63
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 125
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f87a09c5d739d489231a70044e9911
+      internalID: -145628467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_64
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 125
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd7acaf3187999478cf6e9b78a16362
+      internalID: 725555066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_65
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 125
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbf6bf15bd93a94793dbe77c6f80b5c
+      internalID: -1559522863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_66
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 125
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ea1a2fcb9dbef42a40535faa19735f
+      internalID: 1894756280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_67
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 125
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5d14c217a439741aebdba406c08979
+      internalID: -1331695630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_68
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 125
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a2dd3039980ce4e99d6cbf19920e6d
+      internalID: 104155233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_69
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 125
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374d13c40d1910746805f6038c8bf515
+      internalID: -263800207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_70
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 125
+        width: 4
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3f88abc65953d4498a95947c8760b2
+      internalID: -2129547825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_71
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 125
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce5ec6b4c87720428f8d239da68478e
+      internalID: -1057798509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_72
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 125
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9741e7d99119de4bb7510dcca245c49
+      internalID: -789544931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_73
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 104
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71bcb5db0c3bee47981b0fa1faf7830
+      internalID: -581834821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_74
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fdaaf85147d9641925ed8d6a79b77c
+      internalID: -1100754365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 104
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40192f97c7c4b843ab59ddfe0a31982
+      internalID: -532170651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_76
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918908470935ab1419cd8b079eb01cca
+      internalID: 1853200553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_77
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eec0fb3ec97eb144bcc064ac4fd5d22
+      internalID: -641973322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_78
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 104
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a65a3283e2f8845bc451890de4a065
+      internalID: 1668668194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_79
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 104
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbb86ec026c8ea4889d6ef61d4b63e1
+      internalID: 629326977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_80
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 104
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0eb59515a337e40a5f116e019052fc
+      internalID: -443521846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045396ebe18f2124688a0fa1e99f30d4
+      internalID: -1298743842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_82
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 104
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b619fcf5204f4404b88a9ec5d298faea
+      internalID: 58789175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_83
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 104
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c539362e5da17b44ab75ba537b69e76
+      internalID: -1386997597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_84
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 104
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d73a35797dba04bbbb8e27e2414bda
+      internalID: 185093082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_85
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 104
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf7a72c5e7742946b545da759ae137c
+      internalID: 1450957819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_86
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 104
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef713dea5296874a82a9ce42b0fbddc
+      internalID: 1661715882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_87
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 104
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818d8caab8b57d449b144a501d42ce2
+      internalID: 434189482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_88
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 104
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76848259345bc014583e5aa9eefcd413
+      internalID: 237571607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_89
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 104
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a2f6a81c8624940be5340892e5b870
+      internalID: 1404703628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_90
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 104
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff44d2f52c0628c4f8f79e5bf9250e3f
+      internalID: -500376619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_91
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 104
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037aaa6e95b2e334b8e1bdc27669e6be
+      internalID: 1468689377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_92
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 104
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691eab24b39aeb247aa3a003b4062746
+      internalID: 727828933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_93
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2659fc7aaae6054f92b05d3e3d8bf46
+      internalID: -260180068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_94
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf2584ff81c1e84c803612010bf8756
+      internalID: -385298960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_95
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74aa2793fb4044a4782d7e4865d7b265
+      internalID: 224635489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_96
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd24953749bf75742ae9c3ed9b6914ca
+      internalID: 1079161174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_97
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 105
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3c07be9b421ee438a295c9b47d7915
+      internalID: -1114497650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_98
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 84
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0db45817d8f05408199d3f24164ed6
+      internalID: -279879141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_99
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 84
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78182507eb771347b578e2f1d20b5d0
+      internalID: -1935164509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_100
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 84
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4783d416281aec4bb8a13e82254a5e5
+      internalID: -1109462569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_101
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 84
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66271043c23c3264ca543a1fddf9e471
+      internalID: -98026781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_102
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 84
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bae3352a8611b4091338c5f8d8dedb
+      internalID: 487344168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_103
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 84
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af670238113b6f7459331fe6f842cbec
+      internalID: 869668005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_104
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 84
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffad89d7c64a6464280e20bdfd3b88a9
+      internalID: -241835518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_105
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 84
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ff20b7ac0a01043aa359f6b99fae8e
+      internalID: -1507137129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 84
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7051b2dd2393a4d8755fe691b81bbe
+      internalID: 1907944627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_107
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 84
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a2f09b412502141b896cd1e138ffda
+      internalID: 552319291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_108
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 84
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21810013fe1a9cb4b988b2e8e63c86aa
+      internalID: 2057425916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_109
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 84
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ec2d22d5bdfe04c85d8940f5e565e7
+      internalID: -1242267062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_110
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 84
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6d52290d11a9749a03949e9c14bb2b
+      internalID: -1117808587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_111
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 84
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4000bd4536c97d14e90ece9d0981c4f5
+      internalID: -1248782879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_112
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 84
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584c18b109da62d41b47fe9229801e2a
+      internalID: 826575150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_113
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 84
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8c30bfe8e5edd4190bdc4d8938ae18
+      internalID: 1969447292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_114
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 85
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc1f216d1b5c7b46a77d879a699e60b
+      internalID: 1776114249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_115
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 85
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c130b388108185b4ebb2beaa34c084b3
+      internalID: 1426708360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_116
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 85
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972f8640e8cc07646952048b3284b35e
+      internalID: 1446660678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_117
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 85
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f52120929f2c24e98389639fe7050b
+      internalID: -874845962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_118
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 85
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff71522b61f6da4dbacb16102f646a8
+      internalID: -1684064144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_119
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 85
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08406017db1401c47ac9ee109b11799e
+      internalID: -1378567009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_120
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 85
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d23668993c69249b621dfd87823bad
+      internalID: 138628843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemies_121
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 85
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3859b7f720eb9c45b47fca989f91d24
+      internalID: 1129722737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy F 00
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dfde65ebab5fc46a96ae5a9de6a7a2
+      internalID: 364286458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy F 01
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19773fc21c35774b92db6c124e140b0
+      internalID: 1627253542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy F 02
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f3ffa3f6576f543b50c42314d62ec5
+      internalID: -2081282573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy G 00
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a50409376957ca43857cb1821bf0bd5
+      internalID: -469242016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy G 01
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 47
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099279ef5d7f1fe41b851c071c6dcbbc
+      internalID: 453340145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy H 00
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 47
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e65dfddb0c835c4783bc9daa31c73e3
+      internalID: 1210768119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy H 01
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 47
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057be5660eedbc447b5397df9dc21356
+      internalID: 482001282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy J 00
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47424446446ab2b48bc0059cce96451a
+      internalID: 1229449556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy J 01
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 47
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41931353f14527845929d6c871808eed
+      internalID: 1648044501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Enemy J 02
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 47
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a19134b963b5144bdcdabdf4e60e6e
+      internalID: 1313624235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 00
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70f6d841e0669c41b7eb6bb5e880a92
+      internalID: -1016844806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 01
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 63
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35727c54056c8d4418452785f87710b2
+      internalID: -191153923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 02
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 63
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b9b8f1fdfa6874d849f192b297d194
+      internalID: 2083421282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 03
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef920f6ded39d6940a82031d5ea34ede
+      internalID: 665329661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 04
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 44
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5ccdf797f48cb4e8bfd3a13f684d05
+      internalID: -346005705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 05
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 45
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c5e7f26cf848042908042757ed771a
+      internalID: 748868223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 07
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 46
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a95e062f6a70ce458a27cb63ef54783
+      internalID: -1036395922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 08
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 49
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d58f29bccd4184890b1c369e7df15a
+      internalID: -1217751481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Player Explode 02
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40db15bb47e96364c825bac08a31b1a2
+      internalID: 1703667188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Big Enemy Explode 01
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 6
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fdafbd01b9c8e4687816f5417a9893
+      internalID: -1281523923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Big Enemy Explode 02
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280fd21628dc18d4bb67c29938851e2f
+      internalID: 1622779556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Big Enemy Explode 03
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cef8855d076ed468f4b8531dbee8e3
+      internalID: 862989616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Big Enemy Explode 04
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306522e42e73a1e43974c8a9139dc3e9
+      internalID: 2108192859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Player Explode 00
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cef81b71e98db4eb2af43628160c14
+      internalID: 56680073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Player Explode 01
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 6
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ea3b6895f247b43913f58c1cc5f149
+      internalID: -198625212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Explode Enemy 06
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 45
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aa6e1f189d51b4cbf1965eed6dfcee
+      internalID: -912785161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Player Explode 03
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 6
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afa6574ebd1b6b44ad756a079b8adc2
+      internalID: -341004263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Player Explode 04
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 6
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274c2bcb8cb728548862eca7d781e991
+      internalID: -134870505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Player Explode 05
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 6
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391ae27509a34404ab8dbe7f59fb41dc
+      internalID: 708639000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Big Enemy Explode 00
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 6
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0354f94007c6541a69e66187164ae6
+      internalID: -255443110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vulgus - Big Enemy Explode 05
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 6
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c31dbd602645b46afb2fc98bcc0f70
+      internalID: 1466666029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Vulgus - Enemies_81: -1298743842
+      Vulgus - Enemies_36: 18640287
+      Vulgus - Enemies_75: -532170651
+      Vulgus - Enemies_104: -241835518
+      Vulgus - Enemies_68: 104155233
+      Vulgus - Enemies_4: -152163411
+      Vulgus - Enemies_56: 1367621740
+      Vulgus - Enemies_105: -1507137129
+      Vulgus - Enemies_13: -1300145426
+      Vulgus - Enemies_102: 487344168
+      Vulgus - Explode Enemy 01: -191153923
+      Vulgus - Enemies_118: -1684064144
+      Vulgus - Enemies_120: 138628843
+      Vulgus - Enemy E 3: 165029957
+      Vulgus - Enemy H 00: 1210768119
+      Vulgus - Enemies_12: 659169389
+      Vulgus - Enemies_44: 136238412
+      Vulgus - Enemies_84: 185093082
+      Vulgus - Enemies_167: 1813570183
+      Vulgus - Enemies_92: 727828933
+      Vulgus - Enemies_11: 1776442219
+      Vulgus - Enemies_3: 2126706757
+      Vulgus - Enemies_96: 1079161174
+      Vulgus - Enemies_86: 1661715882
+      Vulgus - Player Explode 03: -341004263
+      Vulgus - Player Explode 04: -134870505
+      Vulgus - Enemies_159: 1244972625
+      Vulgus - Enemies_77: -641973322
+      Vulgus - Enemies_67: -1331695630
+      Vulgus - Player Explode 00: 56680073
+      Vulgus - Big Enemy Explode 00: -255443110
+      Vulgus - Bullet Center 00: 988616590
+      Vulgus - Enemy B 03: 561772523
+      Vulgus - Enemy F 00: 364286458
+      Vulgus - Enemies_43: 814383307
+      Vulgus - Enemies_15: -451252722
+      Vulgus - Enemies_32: 1510907777
+      Vulgus - Enemy C 04: 1613054509
+      Vulgus - Enemies_1: 1887624542
+      Vulgus - Enemies_145: -480300664
+      Vulgus - Enemies_121: 1129722737
+      Vulgus - Enemies_147: -383811862
+      Vulgus - Enemies_71: -1057798509
+      Vulgus - Enemies_83: -1386997597
+      Vulgus - Enemies_114: 1776114249
+      Vulgus - Enemy E 2: -453390494
+      Vulgus - Enemies_57: -53122747
+      Vulgus - Enemies_85: 1450957819
+      Vulgus - Enemy G 00: -469242016
+      Vulgus - Enemies_107: 552319291
+      Vulgus - Enemies_7: 1134233335
+      Vulgus - Enemies_64: 725555066
+      Vulgus - Enemy J 01: 1648044501
+      Vulgus - Enemies_39: -1103631610
+      Vulgus - Enemies_60: 1710290539
+      Vulgus - Enemies_166: 1616428576
+      Vulgus - Enemies_138: -760661756
+      Vulgus - Enemy B 05: 708973658
+      Vulgus - Enemy C 05: -642487514
+      Vulgus - Enemies_66: 1894756280
+      Vulgus - Enemies_90: -500376619
+      Vulgus - Enemies_103: 869668005
+      Vulgus - Enemies_65: -1559522863
+      Vulgus - Enemies_76: 1853200553
+      Vulgus - Enemy E: 869536718
+      Vulgus - Explode Enemy 07: -1036395922
+      Vulgus - Player Explode 01: -198625212
+      Vulgus - Enemies_88: 237571607
+      Vulgus - Big Enemy Explode 05: 1466666029
+      Vulgus - Enemies_54: 1262188331
+      Vulgus - Enemies_168: -537783867
+      Vulgus - Enemies_8: -420812747
+      Vulgus - Enemy E 4: 1620874824
+      Vulgus - Enemies_97: -1114497650
+      Vulgus - Enemies_72: -789544931
+      Vulgus - Enemy C 03: -1746472576
+      Vulgus - Enemies_14: 1453852891
+      Vulgus - Enemies_165: 1693258400
+      Vulgus - Enemies_38: 2109429142
+      Vulgus - Explode Enemy 00: -1016844806
+      Vulgus - Enemies_79: 629326977
+      Vulgus - Big Enemy Explode 02: 1622779556
+      Vulgus - Enemies_115: 1426708360
+      Vulgus - Enemy C 00: 125534167
+      Vulgus - Bullet Center 02: -318857504
+      Vulgus - Enemies_10: -556532788
+      Vulgus - Enemies_148: -1261800010
+      Vulgus - Enemies_70: -2129547825
+      Vulgus - Enemies_61: -1968122315
+      Vulgus - Enemy C 01: -1201998084
+      Vulgus - Enemy B 01: 23874224
+      Vulgus - Enemies_109: -1242267062
+      Vulgus - Enemies_119: -1378567009
+      Vulgus - Enemies_31: 532203357
+      Vulgus - Enemies_37: 109675678
+      Vulgus - Enemies_69: -263800207
+      Vulgus - Enemies_82: 58789175
+      Vulgus - Enemies_100: -1109462569
+      Vulgus - Enemies_160: 1244434070
+      Vulgus - Enemies_116: 1446660678
+      Vulgus - Enemies_63: -145628467
+      Vulgus - Bullet Center 01: 38316994
+      Vulgus - Explode Enemy 04: -346005705
+      Vulgus - Enemy J 00: 1229449556
+      Vulgus - Enemies_117: -874845962
+      Vulgus - Enemies_78: 1668668194
+      Vulgus - Enemies_5: -760306024
+      Vulgus - Enemies_59: -1790345773
+      Vulgus - Enemy B 06: -820461186
+      Vulgus - Enemies_142: -1653811560
+      Vulgus - Enemies_87: 434189482
+      Vulgus - Enemies_34: 1817035501
+      Vulgus - Enemies_158: -580737660
+      Vulgus - Enemies_146: -1809775752
+      Vulgus - Enemies_101: -98026781
+      Vulgus - Explode Enemy 02: 2083421282
+      Vulgus - Enemies_2: -918402982
+      Vulgus - Enemies_6: -1676150455
+      Vulgus - Player Explode 02: 1703667188
+      Vulgus - Enemies_98: -279879141
+      Vulgus - Explode Enemy 03: 665329661
+      Vulgus - Enemies_110: -1117808587
+      Vulgus - Enemies_162: 2059029689
+      Vulgus - Enemies_106: 1907944627
+      Vulgus - Enemy F 01: 1627253542
+      Vulgus - Enemy B 04: -2077206041
+      Vulgus - Enemy B 00: -1032758365
+      Vulgus - Enemy J 02: 1313624235
+      Vulgus - Enemies_80: -443521846
+      Vulgus - Enemies_58: -358994680
+      Vulgus - Enemies_55: -654573154
+      Vulgus - Enemy D: 1846576150
+      Vulgus - Enemies_89: 1404703628
+      Vulgus - Explode Enemy 05: 748868223
+      Vulgus - Explode Enemy 08: -1217751481
+      Vulgus - Enemies_62: 1792187024
+      Vulgus - Enemy H 01: 482001282
+      Vulgus - Enemies_161: -389103490
+      Vulgus - Enemies_45: -1564314204
+      Vulgus - Enemies_73: -581834821
+      Vulgus - Explode Enemy 06: -912785161
+      Vulgus - Enemies_74: -1100754365
+      Vulgus - Enemies_95: 224635489
+      Vulgus - Big Enemy Explode 04: 2108192859
+      Vulgus - Enemies_112: 826575150
+      Vulgus - Enemies_144: -1146527326
+      Vulgus - Big Enemy Explode 01: -1281523923
+      Vulgus - Enemies_164: 874982012
+      Vulgus - Big Enemy Explode 03: 862989616
+      Vulgus - Enemies_163: -1201992630
+      Vulgus - Bullet Center 03: -278489255
+      Vulgus - Enemies_157: -406672200
+      Vulgus - Enemies_94: -385298960
+      Vulgus - Enemy G 01: 453340145
+      Vulgus - Enemies_42: -1716425250
+      Vulgus - Enemy F 02: -2081282573
+      Vulgus - Enemies_35: 1911259880
+      Vulgus - Enemies_33: -948294552
+      Vulgus - Enemies_30: 379839477
+      Vulgus - Enemies_93: -260180068
+      Vulgus - Enemies_99: -1935164509
+      Vulgus - Enemy B 02: 278630553
+      Vulgus - Enemies_40: 949212992
+      Vulgus - Enemies_113: 1969447292
+      Vulgus - Enemies_108: 2057425916
+      Vulgus - Enemies_143: 951058634
+      Vulgus - Enemies_9: 990225445
+      Vulgus - Enemies_154: -665594765
+      Vulgus - Enemies_41: -1434160350
+      Vulgus - Enemies_111: -1248782879
+      Vulgus - Player Explode 05: 708639000
+      Vulgus - Enemy A: -1552453210
+      Vulgus - Enemies_91: 1468689377
+      Vulgus - Enemies_149: 257221841
+      Vulgus - Enemy C 02: 811372466
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

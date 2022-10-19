@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37164fe2c129d1246a3be0d085d90f1e, type: 3}
+  m_Name: BackgroundManager Data - Game
+  m_EditorClassIdentifier: 
+  backgroundPrefabs:
+  - {fileID: 2381635080007167950, guid: 9d2f0e1b04ebc214c8d0eb1039c2e30d, type: 3}
+  - {fileID: 2508677989627732807, guid: 402269bc700c1dd499d72d60d388a061, type: 3}
+  - {fileID: 6668968598411603711, guid: 2d9e72c3e19345e47ac1ce228789aef6, type: 3}
+  - {fileID: 8062288404944769376, guid: 83f098f7db15c2b4dbd6bdcafec3529b, type: 3}
+  - {fileID: 5722473286297992927, guid: 891f55357e3fe834cad9c71c60949554, type: 3}
+  - {fileID: 5276831109201790250, guid: 6b2268ba03bc0ec4698f11ba90f12da4, type: 3}
+  - {fileID: 688395634427742557, guid: 084ca08ff4e65bd46b5d0864136d75e5, type: 3}
+  - {fileID: 1267608718173520689, guid: d1ab2acadbce66346aec5183291c1385, type: 3}
+  - {fileID: 7609609883751956272, guid: e5a6de51ea1d0fe41b317612c1eeb79a, type: 3}
+  - {fileID: 5745424394295903178, guid: 29e99da7799295b4986124a0af1e684b, type: 3}
+  normalSpeed: 1.5
+  highSpeed: 7
+  size: 2

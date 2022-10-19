@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Enemy
+  - WeaponNormal
+  - WeaponPowerUp
+  - FinalBoss
+  - Spawner
+  - EnemyBullet
+  - PowerUp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Enemy
+  - EnemyBase
+  - PlayerBullet
+  - EnemyBullet
+  - PowerUp
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 982402583
+    locked: 0
+  - name: OnGround
+    uniqueID: 2950664855
+    locked: 0
+  - name: LowHeightEnemy
+    uniqueID: 2296413821
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 1345378615
+    locked: 0
+  - name: Foreground
+    uniqueID: 3048168209
+    locked: 0
