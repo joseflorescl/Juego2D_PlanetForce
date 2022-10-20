@@ -47,7 +47,9 @@ public class PlayerController : EntityController
     {
         if (entityHealth.IsDead) return;
 
-        if ( (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.RightControl)) 
+        if ( (Input.GetKeyDown(KeyCode.LeftControl)  || 
+              Input.GetKeyDown(KeyCode.RightControl) || 
+              Input.GetButtonDown("Fire1")) 
             && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
