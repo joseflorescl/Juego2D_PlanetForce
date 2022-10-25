@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a62da0c77633740a031f7139174434, type: 3}
+  m_Name: Enemy Vulgus Mini Data - Challenge 5
+  m_EditorClassIdentifier: 
+  speed: 5
+  maxHealth: 1
+  delayToDestroy: 1
+  scorePoints: 50
+  minSecondsBetweenFire: 3
+  maxSecondsBetweenFire: 7
+  audioClipsShoot:
+  - {fileID: 8300000, guid: 7146e55cbfbe79742ab565b807314c8a, type: 3}
+  audioClipsExplosion:
+  - {fileID: 8300000, guid: eee73db9573d2d04091e6be0d7b91310, type: 3}
+  - {fileID: 8300000, guid: 86f441a79037fa94dbe91a146d32cfce, type: 3}
+  - {fileID: 8300000, guid: 308e9df330e2fd14e876b06f5be22342, type: 3}
+  - {fileID: 8300000, guid: bbfefe87f1ca9db4f9803ae8d622da3a, type: 3}
+  - {fileID: 8300000, guid: 727b21ca3b0f9e543a624cdca724dae5, type: 3}
+  - {fileID: 8300000, guid: 5c272ad8d4ad5a94db14f2df3e3ae853, type: 3}
+  - {fileID: 8300000, guid: 194001103df5160448edeeb31ff866cb, type: 3}
+  - {fileID: 8300000, guid: ff1327704a968db43a0dfa4c453d84bb, type: 3}
+  - {fileID: 8300000, guid: d59d3fbeb29f91c4f97a17f0db04c31d, type: 3}
+  audioClipsDamage:
+  - {fileID: 8300000, guid: 423a2c913c2fe7343872fb763e855216, type: 3}
+  audioClipsInBattle:
+    audioClipsEntityAppearance: []
+    audioClipsEntityFight: []
+    audioClipsEntityDead: []

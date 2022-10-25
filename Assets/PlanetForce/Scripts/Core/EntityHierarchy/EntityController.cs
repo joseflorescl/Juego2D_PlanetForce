@@ -30,6 +30,8 @@ public abstract class EntityController : KinematicProjectile
 
     public override float Speed => entityData.speed;
 
+    public bool IsDead => entityHealth.IsDead;
+
     protected virtual void Awake()
     {
         gameManager = FindObjectOfType<GameManager>(); // Esto podría ser un Singleton o equivalente
@@ -99,13 +101,19 @@ public abstract class EntityController : KinematicProjectile
 
     public virtual void FireBullet()
     {
+        if (transform.position.y <= entityData.notFireBelowThisHeight)
+            return;
+        
         if (bulletFactory.Create())
             gameManager?.EntityFired(this);
     }
 
-    public virtual void FireBulletToTarget(Vector3 targetPosition)
+    public virtual void FireBulletToTarget()
     {
-        if (bulletFactory.CreateToTarget(targetPosition))
+        if (transform.position.y <= entityData.notFireBelowThisHeight)
+            return;
+
+        if (bulletFactory.CreateToTarget(TargetPosition()))
             gameManager?.EntityFired(this);
     }
 
@@ -143,7 +151,7 @@ public abstract class EntityController : KinematicProjectile
 
         while (!entityHealth.IsDead) 
         {
-            FireBulletToTarget(TargetPosition());
+            FireBulletToTarget();
             wait = Random.Range(entityData.minSecondsBetweenFire, entityData.maxSecondsBetweenFire);
             yield return new WaitForSeconds(wait);
         }

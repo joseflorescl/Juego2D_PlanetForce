@@ -164,8 +164,8 @@ GameObject:
   - component: {fileID: -1790730380607753711}
   - component: {fileID: 4472729878454422593}
   m_Layer: 7
-  m_Name: Enemy Xevious Andor Genesis
-  m_TagString: FinalBoss
+  m_Name: Enemy Xevious Andor Genesis - Easy
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81ec8f24e555d7d49aac598e6945106e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entityData: {fileID: 11400000, guid: 619bc83bb7da5ea41911cdb6734557ec, type: 2}
+  entityData: {fileID: 11400000, guid: 8eae957d01d718c42aa2d0b7495b3826, type: 2}
   wayPoints: {fileID: 11400000, guid: 9c90c2c06ac569446a73e29f295e20f6, type: 2}
   explosions:
   - {fileID: 328886941554864318}
@@ -517,15 +517,20 @@ MonoBehaviour:
   creationMethod: 1
   firePoints:
   - transform: {fileID: 8247196578732781336}
-    projectilePrefab: {fileID: 632438701672326747, guid: 9cb6ea8bc8ffdc342938fa74d8993f62, type: 3}
+    projectilePrefab: {fileID: 1465936847631119333, guid: ee35f290fa33f154ab28718d9a8ef379, type: 3}
+    speed: 10
   - transform: {fileID: 4933905184553397827}
-    projectilePrefab: {fileID: 632438701672326747, guid: 9cb6ea8bc8ffdc342938fa74d8993f62, type: 3}
+    projectilePrefab: {fileID: 1465936847631119333, guid: ee35f290fa33f154ab28718d9a8ef379, type: 3}
+    speed: 10
   - transform: {fileID: 4933905183177715681}
-    projectilePrefab: {fileID: 632438701672326747, guid: 9cb6ea8bc8ffdc342938fa74d8993f62, type: 3}
+    projectilePrefab: {fileID: 1465936847631119333, guid: ee35f290fa33f154ab28718d9a8ef379, type: 3}
+    speed: 10
   - transform: {fileID: 4933905184445437742}
-    projectilePrefab: {fileID: 632438701672326747, guid: 9cb6ea8bc8ffdc342938fa74d8993f62, type: 3}
+    projectilePrefab: {fileID: 1465936847631119333, guid: ee35f290fa33f154ab28718d9a8ef379, type: 3}
+    speed: 10
   - transform: {fileID: 1268721414540634832}
-    projectilePrefab: {fileID: 1383389308, guid: f174c4c964dea9a46b947b9357c70a7d, type: 3}
+    projectilePrefab: {fileID: 1465936847631119333, guid: ee35f290fa33f154ab28718d9a8ef379, type: 3}
+    speed: 12
   rotateToVelocityDirection: 0
 --- !u!1001 &391705744493127652
 PrefabInstance:

@@ -1011,7 +1011,8 @@ MonoBehaviour:
   respawnMessage: {fileID: 1539740019}
   gameOverMessage: {fileID: 1539740019}
   hiScoreMessage: {fileID: 1539740019}
-  theEndMessage: {fileID: 0}
+  theEndMessage: {fileID: 1539740019}
+  holdToFireHint: {fileID: 1539740019}
   panelTitle: {fileID: 1907739179}
   scoreText: {fileID: 1241501108}
   hiScoreText: {fileID: 962441571}
@@ -3459,7 +3460,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BGMAudioSource: {fileID: 7353952916816900090}
-  SFXAudioSource: {fileID: 7353952917056668893}
+  SFXAudioSourceExplosions: {fileID: 7353952917056668893}
+  SFXAudioSourceMisc: {fileID: 7353952917056668893}
   audioManagerData: {fileID: 11400000, guid: 11dec87ca6b9cd8478001108631302bc, type: 2}
 --- !u!1 &7353952917056668891
 GameObject:

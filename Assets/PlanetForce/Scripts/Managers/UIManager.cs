@@ -14,6 +14,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject gameOverMessage;
     [SerializeField] private GameObject hiScoreMessage;
     [SerializeField] private GameObject theEndMessage;
+    [SerializeField] private GameObject holdToFireHint;
 
     [SerializeField] private GameObject panelTitle;
     [SerializeField] private TextMeshProUGUI scoreText;
@@ -38,7 +39,8 @@ public class UIManager : MonoBehaviour
 
     void Awake()
     {
-        messagesPanelCenter = new GameObject[] { gameManual, respawnMessage, gameOverMessage, panelTitle, hiScoreMessage, theEndMessage };
+        messagesPanelCenter = new GameObject[] { gameManual, respawnMessage, gameOverMessage, panelTitle, hiScoreMessage, theEndMessage};
+        holdToFireHint.SetActive(false);
 
         // Notar que en Unity NO funciona el operador ?. con las vars serializadas
         if (pressEnter)
@@ -50,6 +52,12 @@ public class UIManager : MonoBehaviour
         validateFirstUpdateHiScore = true;
 
 
+    }
+
+    public void ShowAndHideHoldToFireHint(float secondsActive)
+    {
+        holdToFireHint.SetActive(true);
+        StartCoroutine(SetActiveWithDelay(holdToFireHint, false, secondsActive));
     }
 
     public void EnterPressed(string text)

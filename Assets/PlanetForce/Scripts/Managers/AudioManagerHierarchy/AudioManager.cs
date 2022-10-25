@@ -5,7 +5,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] protected AudioSource BGMAudioSource;
-    [SerializeField] protected AudioSource SFXAudioSource;
+    [SerializeField] protected AudioSource SFXAudioSourceExplosions;
+    [SerializeField] protected AudioSource SFXAudioSourceMisc;
     [SerializeField] protected AudioManagerData audioManagerData;
 
     protected Coroutine audioRoutine;
@@ -24,17 +25,43 @@ public class AudioManager : MonoBehaviour
     }
 
 
-    public void PlayRandomSound(AudioClip[] clips)
+    public void PlayRandomDamageSound(AudioClip[] clips)
+    {
+        PlayRandomSound(clips, SFXAudioSourceMisc);
+    }
+
+    
+    public void PlayRandomExplosionSound(AudioClip[] clips)
+    {
+        PlayRandomSound(clips, SFXAudioSourceExplosions);
+    }
+
+    public void PlayRandomFireSound(AudioClip[] clips)
+    {
+        PlayRandomSound(clips, SFXAudioSourceMisc);
+    }
+
+    protected void PlayRandomSound(AudioClip[] clips, AudioSource audioSource)
     {
         if (clips == null || clips.Length == 0) return; // Programación defensiva nunca está de más
         var clip = GetRandomClip(clips);
-        SFXPlayOneShot(clip);
+        SFXPlayOneShot(clip, audioSource);
     }
+
+    protected void SFXPlayOneShot(AudioClip clip, AudioSource audioSource)
+    {
+        if (!clipsPlayedThisFrame.Contains(clip))
+        {
+            audioSource.PlayOneShot(clip);
+            clipsPlayedThisFrame.Add(clip);
+        }
+    }
+
 
     public void PlayExtraLifeSound()
     {
         var clip = GetRandomClip(audioManagerData.extraLife);
-        SFXPlayOneShot(clip);
+        SFXPlayOneShot(clip, SFXAudioSourceMisc);
     }
 
     public void PlayHiScoreMusic()
@@ -72,9 +99,9 @@ public class AudioManager : MonoBehaviour
     public void PlayPressEnter()
     {
         BGMAudioSource.Stop();
-        SFXAudioSource.Stop();
-        SFXAudioSource.clip = audioManagerData.pressEnter;
-        SFXAudioSource.Play();
+        SFXAudioSourceMisc.Stop();
+        SFXAudioSourceMisc.clip = audioManagerData.pressEnter;
+        SFXAudioSourceMisc.Play();
     }
 
     public float GetDurationPressEnter()
@@ -99,12 +126,12 @@ public class AudioManager : MonoBehaviour
     {
         if (!playMusic)
         {
-            SFXPlayOneShot(powerUpCatchedClip);
+            SFXPlayOneShot(powerUpCatchedClip, SFXAudioSourceMisc);
         }
         else
         {
             StopGameMusic();
-            SFXPlayOneShot(powerUpCatchedClip);
+            SFXPlayOneShot(powerUpCatchedClip, SFXAudioSourceMisc);
             var durationClip = powerUpCatchedClip.length;
             audioRoutine = StartCoroutine(PlayPowerUpMusicRoutine(durationClip, powerUpTime));
         }
@@ -124,9 +151,6 @@ public class AudioManager : MonoBehaviour
         yield return new WaitForSeconds(powerUpTime - delay);
         PlayInGameMusic();
     }
-
-
-    
 
 
     protected AudioClip GetRandomClip(AudioClip[] audioClips)
@@ -164,23 +188,10 @@ public class AudioManager : MonoBehaviour
         PlayBGMMusic(clip, true);
     }
 
-    protected void SFXPlayOneShot(AudioClip clip)
-    {
-        if (!clipsPlayedThisFrame.Contains(clip))
-        {
-            SFXAudioSource.PlayOneShot(clip);
-            clipsPlayedThisFrame.Add(clip);
-        }
-        
-    }
-
     protected void StopAudioRoutine()
     {
         if (audioRoutine != null)
             StopCoroutine(audioRoutine);
     }
-
-    
-
 
 }

@@ -11,6 +11,7 @@ public class EntityData : ScriptableObject
     public int scorePoints = 50;    
     public float minSecondsBetweenFire = 1;
     public float maxSecondsBetweenFire = 10;
+    public float notFireBelowThisHeight = -8f;
 
     [Header("Audio Clips")]
     [Space(10)]

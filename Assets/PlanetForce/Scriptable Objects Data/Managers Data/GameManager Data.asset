@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fb62f718cbbd994b9902183f9a7de10, type: 3}
   m_Name: GameManager Data
   m_EditorClassIdentifier: 
-  extraLifeEveryPoints: 10000
+  extraLifeEveryPoints: 20000
   specialBonusEndGame: 1000000
   secondsShowGameManual: 4
   secondsShowRespawnMessage: 2
   godModeDuration: 3
-  initialLives: 5
+  initialLives: 3
   extraDurationEnterPressed: 0.2
   waitForPlayerExplosion: 1
   waitForEnemyExplosion: 2

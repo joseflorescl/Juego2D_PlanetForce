@@ -25,9 +25,19 @@ public class SceneController : MonoBehaviour
         {
             var currentScene = SceneManager.GetActiveScene();
             if (currentScene.buildIndex == (int)SceneName.Welcome)
-                Application.Quit();
+                Quit();
             else
                 LoadWelcome();
         }
+    }
+
+
+    void Quit()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }

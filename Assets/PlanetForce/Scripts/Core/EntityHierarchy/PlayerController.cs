@@ -24,6 +24,7 @@ public class PlayerController : EntityController
     float nextFire;
     float blendSpeedX;
     ProjectileFactory originalWeapon;
+    bool hasPowerUpWeapon;
     
 
 
@@ -41,16 +42,22 @@ public class PlayerController : EntityController
         fireRate = 1f / firesPerSecond;
         nextFire = 0f;
         blendSpeedX = 0;
+        hasPowerUpWeapon = false;
     }
 
     void Update()
     {
         if (entityHealth.IsDead) return;
 
-        if ( (Input.GetKeyDown(KeyCode.LeftControl)  || 
-              Input.GetKeyDown(KeyCode.RightControl) || 
-              Input.GetButtonDown("Fire1")) 
-            && Time.time > nextFire)
+        bool buttonPressedDown = Input.GetKeyDown(KeyCode.LeftControl) 
+                              || Input.GetKeyDown(KeyCode.RightControl) 
+                              || Input.GetButtonDown("Fire1");
+
+        bool buttonPressed = Input.GetKey(KeyCode.LeftControl) 
+                          || Input.GetKey(KeyCode.RightControl) 
+                          || Input.GetButton("Fire1");
+
+        if ( (buttonPressedDown || (hasPowerUpWeapon && buttonPressed)) && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             FireBullet();
@@ -66,6 +73,7 @@ public class PlayerController : EntityController
 
     public void ActivateSpeedAndWeaponPowerUp(float speed, ProjectileFactory weapon)
     {
+        hasPowerUpWeapon = true;
         SetNewSpeed(speed);
         bulletFactory = weapon;
         // Notar el uso de false: para que la weapon se reubique en posición CON RESPECTO al player
@@ -75,6 +83,7 @@ public class PlayerController : EntityController
 
     public void DeactivateSpeedAndWeaponPowerUp()
     {
+        hasPowerUpWeapon = false;
         ResetSpeed();
         ResetWeapon();
         anim.SetLayerWeight(anim.GetLayerIndex("PowerUpLayer"), 0);

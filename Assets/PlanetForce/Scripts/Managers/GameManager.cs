@@ -78,6 +78,7 @@ public class GameManager : MonoBehaviour
         // Notar que la musica de Batalla tiene preferencia sobre la musica de power up        
         audioManager.PlayPowerUpMusic(powerUpCatchedClip, playMusic, powerUpTime); // true: si debe reproducir música después del sfx
         powerUpManager.SpeedAndWeaponPowerUp(powerUpTime, speed);
+        uiManager.ShowAndHideHoldToFireHint(gameManagerData.secondsShowGameManual);
     }
 
     public void EntityAppearsInBattle(EntityController entity)
@@ -115,12 +116,12 @@ public class GameManager : MonoBehaviour
 
     public void EntityFired(EntityController entity)
     {
-        audioManager.PlayRandomSound(entity.AudioClipsShoot);
+        audioManager.PlayRandomFireSound(entity.AudioClipsShoot);
     }
 
     public void EntityDead(EntityController entity)
     {
-        audioManager.PlayRandomSound(entity.AudioClipsExplosion);
+        audioManager.PlayRandomExplosionSound(entity.AudioClipsExplosion);
 
         if (gameState == GameState.TheEnd) return;
 
@@ -155,7 +156,7 @@ public class GameManager : MonoBehaviour
 
     public void EntityDamaged(EntityController entity)
     {        
-        audioManager.PlayRandomSound(entity.AudioClipsDamage);
+        audioManager.PlayRandomDamageSound(entity.AudioClipsDamage);
     }
 
     public Vector3 PlayerPosition()
@@ -214,6 +215,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator GameOver()
     {
+        spawnerManager.Stop();
         uiManager.ShowGameOverMessage();
         float waitForRestartGame = audioManager.PlayGameOverMusic();
         yield return new WaitForSeconds(waitForRestartGame);

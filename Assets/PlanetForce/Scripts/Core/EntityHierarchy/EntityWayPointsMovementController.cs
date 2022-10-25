@@ -12,7 +12,7 @@ public class EntityWayPointsMovementController : EntityController
         SetKinematicVelocity(transform.up, entityData.speed);
     }
 
-
+    
     protected virtual void Start()
     {        
         StartCoroutine(FireRoutineToTarget());
@@ -27,6 +27,8 @@ public class EntityWayPointsMovementController : EntityController
         SetWeightAnimationLayer("Damage Layer", 0);
     }
 
+
+    
 
     IEnumerator MoveBetweenWayPointsRoutine()
     {

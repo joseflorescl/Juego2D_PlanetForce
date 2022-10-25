@@ -50,8 +50,10 @@ MonoBehaviour:
   firePoints:
   - transform: {fileID: 4998027921708498771}
     projectilePrefab: {fileID: 6836169072225667782, guid: bef825a31658d0d418b28770c05e8a72, type: 3}
+    speed: 0
   - transform: {fileID: 4998027923628873661}
     projectilePrefab: {fileID: 6836169072225667782, guid: bef825a31658d0d418b28770c05e8a72, type: 3}
+    speed: 0
   rotateToVelocityDirection: 0
 --- !u!1 &4457201335126268172
 GameObject:

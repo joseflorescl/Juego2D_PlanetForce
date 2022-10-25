@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Enemy Andor Genesis Data
   m_EditorClassIdentifier: 
   speed: 3
-  maxHealth: 110
+  maxHealth: 180
   delayToDestroy: 50
   scorePoints: 10000
   minSecondsBetweenFire: 0.5
@@ -30,7 +30,5 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 9db875e951d8d2e438aeee0b70bd2bbb, type: 3}
     audioClipsEntityFight:
     - {fileID: 8300000, guid: 010f8e74f7ae6574f8c1a170062792e0, type: 3}
-    - {fileID: 8300000, guid: 1249182068541544197aa8c702534669, type: 3}
     audioClipsEntityDead:
-    - {fileID: 8300000, guid: 0a6ee6409cd28cb42a978e735b863e97, type: 3}
     - {fileID: 8300000, guid: 9c748072a4952c9469ccdceb34844263, type: 3}

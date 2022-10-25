@@ -20,6 +20,8 @@ public class EnemyAndorGenesis : EntityWayPointsMovementController
         EntityAppearsInBattle();
     }
 
+    
+
     public override void Damage()
     {
         base.Damage();
@@ -67,4 +69,6 @@ public class EnemyAndorGenesis : EntityWayPointsMovementController
         }
     }
 
+
+    
 }

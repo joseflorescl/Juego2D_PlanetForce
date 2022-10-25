@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a62da0c77633740a031f7139174434, type: 3}
+  m_Name: Enemy Andor Genesis Data - Easy
+  m_EditorClassIdentifier: 
+  speed: 3
+  maxHealth: 110
+  delayToDestroy: 50
+  scorePoints: 10000
+  minSecondsBetweenFire: 0.5
+  maxSecondsBetweenFire: 1.5
+  audioClipsShoot:
+  - {fileID: 8300000, guid: 8a9c5bb57e9c77c4c95f09612b4251be, type: 3}
+  audioClipsExplosion:
+  - {fileID: 8300000, guid: 6316a4a7d2da60d4796bbeca9c224788, type: 3}
+  - {fileID: 8300000, guid: 407fea17734af3944994dd0120b4b856, type: 3}
+  audioClipsDamage:
+  - {fileID: 8300000, guid: eee73db9573d2d04091e6be0d7b91310, type: 3}
+  audioClipsInBattle:
+    audioClipsEntityAppearance:
+    - {fileID: 8300000, guid: 9db875e951d8d2e438aeee0b70bd2bbb, type: 3}
+    audioClipsEntityFight:
+    - {fileID: 8300000, guid: 1249182068541544197aa8c702534669, type: 3}
+    audioClipsEntityDead:
+    - {fileID: 8300000, guid: 0a6ee6409cd28cb42a978e735b863e97, type: 3}

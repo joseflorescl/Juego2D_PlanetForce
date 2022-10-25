@@ -9,6 +9,7 @@ public class ProjectileFactory : MonoBehaviour
     {
         public Transform transform;
         public KinematicProjectile projectilePrefab; // Debe tener una componente que implemente la interfaz IKinematicProjectile        
+        public float speed;
     }
 
     public enum CreationMethod { AllFirePointsAtOnce, OneRandomFirePoint}
@@ -50,14 +51,14 @@ public class ProjectileFactory : MonoBehaviour
         {
             var position = activeFirePoints[i].transform.position;
             var direction = targetPosition != null ? targetPosition.Value - position : activeFirePoints[i].transform.up;
-            InstantiateProjectile(activeFirePoints[i].projectilePrefab, position, direction);
+            InstantiateProjectile(activeFirePoints[i].projectilePrefab, position, direction, activeFirePoints[i].speed);
         }
 
         return true;
     }
 
 
-    void InstantiateProjectile(KinematicProjectile projectilePrefab, Vector3 position, Vector3 velocityDirection)
+    void InstantiateProjectile(KinematicProjectile projectilePrefab, Vector3 position, Vector3 velocityDirection, float speed)
     {
         // Esto es así para para implementar el LookAt en 2D, en donde el eje forward es en realidad el eje Y
         Quaternion rotation;
@@ -73,7 +74,7 @@ public class ProjectileFactory : MonoBehaviour
         //  no puede declararse de tipo IKinematicProjectile, debe ser de una clase concreta que herede de MB.
         // Por eso se usa la opción de la herencia, declarando una clase padre KinematicProjectile de la cual
         // heredan las Bullet y las Entity
-        projectile.SetKinematicVelocity(velocityDirection, projectile.Speed);
+        projectile.SetKinematicVelocity(velocityDirection, (speed == 0) ? projectile.Speed : speed);
     }
 
     void CalculateMinMaxRange()
