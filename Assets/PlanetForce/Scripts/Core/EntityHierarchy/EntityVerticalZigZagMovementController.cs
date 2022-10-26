@@ -20,8 +20,9 @@ public class EntityVerticalZigZagMovementController : EntityController
         SetKinematicVelocity(transform.up, entityData.speed);
     }
 
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         StartCoroutine(FireRoutineToTarget());
         StartCoroutine(MoveVerticalZigZag());
     }

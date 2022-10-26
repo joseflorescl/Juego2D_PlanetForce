@@ -12,9 +12,10 @@ public class EntityWayPointsMovementController : EntityController
         SetKinematicVelocity(transform.up, entityData.speed);
     }
 
-    
-    protected virtual void Start()
+
+    protected override void Start()
     {        
+        base.Start();
         StartCoroutine(FireRoutineToTarget());
         StartCoroutine(MoveBetweenWayPointsRoutine());
     }

@@ -5,7 +5,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Spawner Data", menuName = "Planet Force/Spawner Data")]
 public class SpawnerData : ScriptableObject
 {
-    public float duration = 5f;
     public float rateOverTime = 5;
     public float startSpeed = 1f;
     public float startRotation; 

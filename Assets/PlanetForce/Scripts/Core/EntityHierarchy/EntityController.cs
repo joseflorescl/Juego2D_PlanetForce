@@ -18,6 +18,7 @@ public abstract class EntityController : KinematicProjectile
     protected EntityVFX entityVFX;
 
     GameManager gameManager; // Como esta componente EntityController se usa en un prefab, NO se puede inic desde el Inspector la var gameManager
+    float delayValidateHeight = 5f;
 
     public float DelayToDestroy => entityData.delayToDestroy;
     public int ScorePoints => entityData.scorePoints;
@@ -42,7 +43,12 @@ public abstract class EntityController : KinematicProjectile
         entityRenderer = GetComponentInChildren<EntityRenderer>(); // Es la abstracción del SpriteRenderer que esta en hijo Model
         entityHealth = GetComponent<EntityHealth>();
         entityVFX = GetComponent<EntityVFX>();
-    }    
+    }
+
+    protected virtual void Start()
+    {
+        StartCoroutine(DestroyBelowThisHeightRoutine(entityData.destroyBelowThisHeight));
+    }
 
     protected void EntityAppearsInBattle()
     {
@@ -166,5 +172,17 @@ public abstract class EntityController : KinematicProjectile
         }
     }
 
-    
+
+    protected IEnumerator DestroyBelowThisHeightRoutine(float height)
+    {
+        while(true)
+        {
+            if (transform.position.y <= height)
+                Destroy(gameObject);
+
+            yield return new WaitForSeconds(delayValidateHeight);
+        }
+    }
+
+
 }

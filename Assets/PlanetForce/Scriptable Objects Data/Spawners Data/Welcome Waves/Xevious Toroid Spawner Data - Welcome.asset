@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00f9d55d36725294db90d2638751b15d, type: 3}
-  m_Name: Vulgus Mini Spawner Data - Welcome
+  m_Name: Xevious Toroid Spawner Data - Welcome
   m_EditorClassIdentifier: 
   duration: 3600
-  rateOverTime: 0.33333334
+  rateOverTime: 0.25
   startSpeed: 5
   startRotation: 180
   maxInstances: 1000
-  burstCount: 5
-  shape: 1
-  horizontalRange: 6
-  offsetPosition: {x: 0, y: 0, z: 0}
+  burstCount: 3
+  shape: 2
+  horizontalRange: 1
+  offsetPosition: {x: 0, y: 1, z: 0}

@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &24448174
 Transform:
   m_ObjectHideFlags: 0
@@ -185,7 +185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &33943338
 Transform:
   m_ObjectHideFlags: 0
@@ -381,7 +381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &51393058
 Transform:
   m_ObjectHideFlags: 0
@@ -856,7 +856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &161437854
 Transform:
   m_ObjectHideFlags: 0
@@ -902,7 +902,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &186763602
 Transform:
   m_ObjectHideFlags: 0
@@ -942,7 +942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 197483488}
   m_Layer: 0
-  m_Name: Wave 03 - Activate at 54.5 - Toroid and Vulgus Mini
+  m_Name: Wave 03 - Toroid and Vulgus Mini
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -956,7 +956,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197483487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 54.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -984,7 +984,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &240293620
 Transform:
   m_ObjectHideFlags: 0
@@ -1024,7 +1024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 261214928}
   m_Layer: 0
-  m_Name: Wave 02 - Activate at 34.5 - Vulgus Mini
+  m_Name: Wave 02 - Vulgus Mini
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,7 +1038,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261214927}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 34.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1056,7 +1056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 290996588}
   m_Layer: 0
-  m_Name: Power Up - Activate at 650
+  m_Name: Power Up End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1070,7 +1070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290996587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 650, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1125,8 +1125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 332164157}
   m_Layer: 0
-  m_Name: Wave 15 - Activate at 479.5 - Vulgus Mini v3 + Vulgus Yashichi v2 + Xevious
-    Toroid v3
+  m_Name: Wave 15 - Vulgus Mini v3 + Vulgus Yashichi v2 + Xevious Toroid v3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1140,7 +1139,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332164156}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 479.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1161,7 +1160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 368097672}
   m_Layer: 0
-  m_Name: Power Up Challenge 1 - Activate at 160
+  m_Name: Power Up 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1175,7 +1174,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 368097671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 160, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1193,7 +1192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 453222766}
   m_Layer: 0
-  m_Name: Wave 09 - Activate at 240.5 - Challenge 4
+  m_Name: Wave 09 - Challenge 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1207,7 +1206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453222765}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 240.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1268,7 +1267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 459644455}
   m_Layer: 0
-  m_Name: Wave 13 - Activate at 379.5 - Xevious Toroid v3 + Vulgus Mega v2
+  m_Name: Wave 13 - Xevious Toroid v3 + Vulgus Mega v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1282,7 +1281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459644454}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 379.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1308,7 +1307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &477051963
 Transform:
   m_ObjectHideFlags: 0
@@ -1359,7 +1358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &521478159
 Transform:
   m_ObjectHideFlags: 0
@@ -1405,7 +1404,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &528276759
 Transform:
   m_ObjectHideFlags: 0
@@ -1451,7 +1450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &564358756
 Transform:
   m_ObjectHideFlags: 0
@@ -1497,7 +1496,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &571829379
 Transform:
   m_ObjectHideFlags: 0
@@ -1543,7 +1542,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &616241180
 Transform:
   m_ObjectHideFlags: 0
@@ -1803,7 +1802,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &642919594
 Transform:
   m_ObjectHideFlags: 0
@@ -1849,7 +1848,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &644793917
 Transform:
   m_ObjectHideFlags: 0
@@ -1895,7 +1894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &648283786
 Transform:
   m_ObjectHideFlags: 0
@@ -2069,7 +2068,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &654518788
 Transform:
   m_ObjectHideFlags: 0
@@ -2244,7 +2243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 690317495}
   m_Layer: 0
-  m_Name: Wave 04 - Activate at 94.5 - Vulgus Mega
+  m_Name: Wave 04 - Vulgus Mega
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2258,7 +2257,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690317494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 94.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2278,8 +2277,9 @@ GameObject:
   m_Component:
   - component: {fileID: 707843695}
   - component: {fileID: 707843696}
+  - component: {fileID: 707843697}
   m_Layer: 0
-  m_Name: Spawner Manager - Gameplay 10min
+  m_Name: Spawner Manager - TIMELINE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2336,9 +2336,149 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8927b80325c4bb343ace2baa170d6f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceToActivate: 1
-  normalSpeed: 1
-  waitValidationToActivate: 0.25
+--- !u!320 &707843697
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707843694}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 1403479692393754667, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1093032666}
+  - key: {fileID: -4957937975575334193, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1390575946}
+  - key: {fileID: -1131367185290770577, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 924914807}
+  - key: {fileID: -5993143899861270632, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1738655943}
+  - key: {fileID: -7338575653116347989, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1246990465}
+  - key: {fileID: -5351766076811554555, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1709384538}
+  - key: {fileID: -7722908302481010669, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 642919593}
+  - key: {fileID: 8738581911963754883, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 752934441}
+  - key: {fileID: 3785059499263853080, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1623778326}
+  - key: {fileID: -6813266863177605594, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1804316949}
+  - key: {fileID: -6739390197822123101, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 648283785}
+  - key: {fileID: 7833154203713767867, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 746556976}
+  - key: {fileID: -5550639467957470034, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 571829378}
+  - key: {fileID: 3797956824625208746, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 240293619}
+  - key: {fileID: -4369860193666824495, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 2124469323}
+  - key: {fileID: 3971199241858254757, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1200596140}
+  - key: {fileID: -5937966039995507814, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1878759936}
+  - key: {fileID: -5137727281314958430, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1382853540}
+  - key: {fileID: 5679642275019191344, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1751931088}
+  - key: {fileID: 8586427730390755885, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 24448173}
+  - key: {fileID: -4791942184638806564, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 477051962}
+  - key: {fileID: -5566986576499886598, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 186763601}
+  - key: {fileID: -4280952101048123359, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 644793916}
+  - key: {fileID: -8882483458290763117, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1345653369}
+  - key: {fileID: 4332147119823920101, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 740089451}
+  - key: {fileID: -5675089314322146305, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1386204492}
+  - key: {fileID: 6420508555852724182, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 528276758}
+  - key: {fileID: -3138507275375279111, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1716790669}
+  - key: {fileID: 7617566307420199390, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 564358755}
+  - key: {fileID: -6005564386302823672, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1015309551}
+  - key: {fileID: -3612282393934709537, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 770437668}
+  - key: {fileID: -5643726261439884677, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 932206825}
+  - key: {fileID: -1253188082984695851, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1314464175}
+  - key: {fileID: -3968568141905337651, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1647513664}
+  - key: {fileID: -3842818426328011621, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 161437853}
+  - key: {fileID: 8935680805349150736, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1158812287}
+  - key: {fileID: 8951329349908228007, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1603158453}
+  - key: {fileID: -6325528886020930861, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1872532446}
+  - key: {fileID: 8874883968468266765, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 616241179}
+  - key: {fileID: -3292026313017049809, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 811468677}
+  - key: {fileID: -4660537916369976597, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1637272604}
+  - key: {fileID: 975922991042023513, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1499262573}
+  - key: {fileID: 4969024476299043515, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 33943337}
+  - key: {fileID: -549903054920959499, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1021633297}
+  - key: {fileID: 5338849692350913702, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 654518787}
+  - key: {fileID: 5171521230990689214, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 813972382}
+  - key: {fileID: -4133108687001502435, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 521478158}
+  - key: {fileID: -7455155351783710889, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 2094793565}
+  - key: {fileID: 7399268474308916378, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 2108788763}
+  - key: {fileID: 5784528396274085628, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1238064562}
+  - key: {fileID: -259436012765310536, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 51393057}
+  - key: {fileID: -5912709391477271837, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 774717249}
+  - key: {fileID: 8876053419053506684, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 744414912}
+  - key: {fileID: 2730658941640179289, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1795665853}
+  - key: {fileID: 335086527450787828, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1461376331}
+  - key: {fileID: -7446282865799802728, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1471310078}
+  - key: {fileID: -6212584857611298417, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1687281334}
+  - key: {fileID: 5703798211956078635, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 762128373}
+  - key: {fileID: 7377747738631408639, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1880889423}
+  - key: {fileID: 1338126955137732104, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1382969161}
+  - key: {fileID: -50921893586022247, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1700122588}
+  - key: {fileID: -2438088805230138545, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 1292800235}
+  - key: {fileID: 1630263920250843830, guid: 3ed8fe117646054459fb16a9ac1c9225, type: 2}
+    value: {fileID: 798735366}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &724994391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,7 +2629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &740089452
 Transform:
   m_ObjectHideFlags: 0
@@ -2611,7 +2751,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &744414913
 Transform:
   m_ObjectHideFlags: 0
@@ -2657,7 +2797,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &746556977
 Transform:
   m_ObjectHideFlags: 0
@@ -2740,7 +2880,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &752934442
 Transform:
   m_ObjectHideFlags: 0
@@ -2786,7 +2926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &762128374
 Transform:
   m_ObjectHideFlags: 0
@@ -2826,7 +2966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 770265188}
   m_Layer: 0
-  m_Name: Wave 20 - Activate at 596.5 - All
+  m_Name: Wave 20 - All
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2840,7 +2980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770265187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 596.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2868,7 +3008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &770437669
 Transform:
   m_ObjectHideFlags: 0
@@ -2914,7 +3054,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &774717250
 Transform:
   m_ObjectHideFlags: 0
@@ -3006,7 +3146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &798735367
 Transform:
   m_ObjectHideFlags: 0
@@ -3052,7 +3192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &811468678
 Transform:
   m_ObjectHideFlags: 0
@@ -3098,7 +3238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &813972383
 Transform:
   m_ObjectHideFlags: 0
@@ -3546,7 +3686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866632135}
   m_Layer: 0
-  m_Name: Wave 10 - Activate at 264.5 - Xevious Toroid v2 + Vulgus Mini v2
+  m_Name: Wave 10 - Xevious Toroid v2 + Vulgus Mini v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3560,7 +3700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866632134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 264.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3581,7 +3721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 897677238}
   m_Layer: 0
-  m_Name: Wave 01 - Activate at 4.5 - Xevious Toroid Both Sides
+  m_Name: Wave 01 - Xevious Toroid Both Sides
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3595,7 +3735,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897677237}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3658,7 +3798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &924914808
 Transform:
   m_ObjectHideFlags: 0
@@ -3704,7 +3844,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &932206826
 Transform:
   m_ObjectHideFlags: 0
@@ -4035,7 +4175,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1015309552
 Transform:
   m_ObjectHideFlags: 0
@@ -4081,7 +4221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1021633298
 Transform:
   m_ObjectHideFlags: 0
@@ -4127,7 +4267,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1093032667
 Transform:
   m_ObjectHideFlags: 0
@@ -4384,7 +4524,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1158812288
 Transform:
   m_ObjectHideFlags: 0
@@ -4430,7 +4570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1200596141
 Transform:
   m_ObjectHideFlags: 0
@@ -4508,7 +4648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1209619608}
   m_Layer: 0
-  m_Name: Wave 07 - Activate at 192.5 - Challenge 2
+  m_Name: Wave 07 - Challenge 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4522,7 +4662,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209619607}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 192.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4549,7 +4689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1238064563
 Transform:
   m_ObjectHideFlags: 0
@@ -4589,7 +4729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1241941943}
   m_Layer: 0
-  m_Name: Wave 19 - Activate at 577.5 - Challenge 8
+  m_Name: Wave 19 - Challenge 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4603,7 +4743,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241941942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 577.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4627,7 +4767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1246990466
 Transform:
   m_ObjectHideFlags: 0
@@ -4817,7 +4957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1272909440}
   m_Layer: 0
-  m_Name: Wave 18 - Activate at 558.5 - Challenge 7
+  m_Name: Wave 18 - Challenge 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4831,7 +4971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272909439}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 558.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4887,7 +5027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1286267102}
   m_Layer: 0
-  m_Name: Wave 11 - Activate at 319.5 - Xevious Andor Genesis - Easy
+  m_Name: Wave 11 - Xevious Andor Genesis - Easy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4901,7 +5041,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286267101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 319.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4925,7 +5065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1292800236
 Transform:
   m_ObjectHideFlags: 0
@@ -5047,7 +5187,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1314464176
 Transform:
   m_ObjectHideFlags: 0
@@ -5087,7 +5227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1330734489}
   m_Layer: 0
-  m_Name: Wave 08 - Activate at 216.5 - Challenge 3
+  m_Name: Wave 08 - Challenge 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5101,7 +5241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330734488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 216.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5125,7 +5265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1345653370
 Transform:
   m_ObjectHideFlags: 0
@@ -5171,7 +5311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1382853541
 Transform:
   m_ObjectHideFlags: 0
@@ -5217,7 +5357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1382969162
 Transform:
   m_ObjectHideFlags: 0
@@ -5263,7 +5403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1386204493
 Transform:
   m_ObjectHideFlags: 0
@@ -5309,7 +5449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1390575947
 Transform:
   m_ObjectHideFlags: 0
@@ -5355,7 +5495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1461376332
 Transform:
   m_ObjectHideFlags: 0
@@ -5395,7 +5535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1469081951}
   m_Layer: 0
-  m_Name: Wave 17 - Activate at 539.5 - Challenge 6
+  m_Name: Wave 17 - Challenge 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5409,7 +5549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1469081950}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 539.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5436,7 +5576,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1471310079
 Transform:
   m_ObjectHideFlags: 0
@@ -5482,7 +5622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1499262574
 Transform:
   m_ObjectHideFlags: 0
@@ -5932,7 +6072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1603158454
 Transform:
   m_ObjectHideFlags: 0
@@ -6054,7 +6194,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1623778327
 Transform:
   m_ObjectHideFlags: 0
@@ -6100,7 +6240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1637272605
 Transform:
   m_ObjectHideFlags: 0
@@ -6275,7 +6415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640741509}
   m_Layer: 0
-  m_Name: Power Up Challenge 2 - Activate at 510
+  m_Name: Power Up 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6289,7 +6429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640741508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 510, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6313,7 +6453,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1647513665
 Transform:
   m_ObjectHideFlags: 0
@@ -6353,7 +6493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653979158}
   m_Layer: 0
-  m_Name: Wave 12 - Activate at 324.5 - Xevious Toroid v2 Both Sides
+  m_Name: Wave 12 - Xevious Toroid v2 Both Sides
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6367,7 +6507,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1653979157}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 324.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6386,7 +6526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1654523732}
   m_Layer: 0
-  m_Name: Wave 06 - Activate at 168.5 - Challenge 1
+  m_Name: Wave 06 - Challenge 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6400,7 +6540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654523731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 168.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6567,7 +6707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1687281335
 Transform:
   m_ObjectHideFlags: 0
@@ -6748,7 +6888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1700122589
 Transform:
   m_ObjectHideFlags: 0
@@ -6794,7 +6934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1709384539
 Transform:
   m_ObjectHideFlags: 0
@@ -6840,7 +6980,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1716790670
 Transform:
   m_ObjectHideFlags: 0
@@ -6943,7 +7083,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1738655944
 Transform:
   m_ObjectHideFlags: 0
@@ -6989,7 +7129,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1751931089
 Transform:
   m_ObjectHideFlags: 0
@@ -7029,7 +7169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1754267176}
   m_Layer: 0
-  m_Name: Wave 21 - Activate at 681.5 - Final Boss
+  m_Name: Wave 21 - Final Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7043,7 +7183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754267175}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 681.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7067,7 +7207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1795665854
 Transform:
   m_ObjectHideFlags: 0
@@ -7113,7 +7253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1804316950
 Transform:
   m_ObjectHideFlags: 0
@@ -7235,7 +7375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1872532447
 Transform:
   m_ObjectHideFlags: 0
@@ -7281,7 +7421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1878759937
 Transform:
   m_ObjectHideFlags: 0
@@ -7327,7 +7467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1880889424
 Transform:
   m_ObjectHideFlags: 0
@@ -7367,7 +7507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1910422909}
   m_Layer: 0
-  m_Name: Wave 16 - Activate at 524.5 - Challenge 5
+  m_Name: Wave 16 - Challenge 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7381,7 +7521,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1910422908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 524.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7750,7 +7890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2092543777}
   m_Layer: 0
-  m_Name: Wave 05 - Activate at 124.5 - Vulgus Yashichi
+  m_Name: Wave 05 - Vulgus Yashichi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7764,7 +7904,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092543776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 124.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7790,7 +7930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2094793566
 Transform:
   m_ObjectHideFlags: 0
@@ -7836,7 +7976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2108788764
 Transform:
   m_ObjectHideFlags: 0
@@ -7876,7 +8016,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2113848557}
   m_Layer: 0
-  m_Name: Wave 14 - Activate at 429.5 - Vulgus Mini v3 + Vulgus Yashichi v2
+  m_Name: Wave 14 - Vulgus Mini v3 + Vulgus Yashichi v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7890,7 +8030,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2113848556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 429.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7915,7 +8055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2124469324
 Transform:
   m_ObjectHideFlags: 0

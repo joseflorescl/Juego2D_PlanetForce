@@ -32,8 +32,6 @@ public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour // Sin 
             CalculateEquidistantValues();
         }
 
-        StartCoroutine(DeactivateWithDelay(spawnerData.duration));
-
     }
 
     protected virtual void Update()
@@ -95,16 +93,13 @@ public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour // Sin 
     }
 
 
+    // Este método de desactivación se llamar en caso de crear un spawner a mano, por ej, dentro de un enemigo
+    //  y así poder detener el spawner una vez muerto ese enemigo.
+    //  Recordar que los spawners del juego ppamente tal están siendo controlados por el Timeline
     public void Deactivate()
     {
         gameObject.SetActive(false);
-    }
-
-    IEnumerator DeactivateWithDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        Deactivate();
-    }
+    }    
 
     T Create(Vector3 position)
     {        

@@ -27,8 +27,9 @@ public class EntityToTargetMovementController : EntityController
     //    print("   OnDisable de Yashichi con velocidad = " + rb2D.velocity + " Posición: " + transform.position);
     //}
 
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         StartCoroutine(FireRoutineToTarget());
         StartCoroutine(MoveToTarget());
     }

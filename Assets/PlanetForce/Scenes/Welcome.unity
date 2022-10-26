@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 9026577467537256578, guid: 85f5c43bf7d48b24ab2547b926cf2b7f, type: 3}
-  spawnerData: {fileID: 11400000, guid: 82fc304db0ad3024ab4bc8918df9513e, type: 2}
+  spawnerData: {fileID: 11400000, guid: c5eaa19b611cd01429edde43e57f92dd, type: 2}
 --- !u!1 &222860338
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1872018902, guid: a238de1d502de1941810795f8952ded4, type: 3}
-  spawnerData: {fileID: 11400000, guid: 57b83104f1fd2b84e82a6181fcefc944, type: 2}
+  spawnerData: {fileID: 11400000, guid: ae3418cdb1434154baa0803680c58aa0, type: 2}
 --- !u!1 &351599892
 GameObject:
   m_ObjectHideFlags: 0
@@ -1879,7 +1879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1872018902, guid: a238de1d502de1941810795f8952ded4, type: 3}
-  spawnerData: {fileID: 11400000, guid: 57b83104f1fd2b84e82a6181fcefc944, type: 2}
+  spawnerData: {fileID: 11400000, guid: ae3418cdb1434154baa0803680c58aa0, type: 2}
 --- !u!1 &1394621545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3022,8 +3022,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1826096082}
   - component: {fileID: 1826096083}
+  - component: {fileID: 1826096084}
   m_Layer: 0
-  m_Name: Spawner Manager
+  m_Name: Spawner Manager - TIMELINE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3058,9 +3059,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8927b80325c4bb343ace2baa170d6f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceToActivate: 1
-  normalSpeed: 1
-  waitValidationToActivate: 0.25
+--- !u!320 &1826096084
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826096081}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 7e69164501531454ca58d8dc67c04ac5, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -6235236327115914112, guid: 7e69164501531454ca58d8dc67c04ac5, type: 2}
+    value: {fileID: 243361894}
+  - key: {fileID: 4627695301292937795, guid: 7e69164501531454ca58d8dc67c04ac5, type: 2}
+    value: {fileID: 1390679238}
+  - key: {fileID: 7243560851593359185, guid: 7e69164501531454ca58d8dc67c04ac5, type: 2}
+    value: {fileID: 138768610}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1883945997
 GameObject:
   m_ObjectHideFlags: 0

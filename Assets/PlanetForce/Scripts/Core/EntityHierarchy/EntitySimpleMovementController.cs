@@ -12,8 +12,9 @@ public class EntitySimpleMovementController : EntityController
         SetKinematicVelocity(transform.up, entityData.speed); // Esto se debe hacer en el Awake y no en el Start, para que se pueda sobreescribir en el spawner despues de hacer el Instantiate
     }
 
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         StartCoroutine(FireRoutineToTarget());
     }
         

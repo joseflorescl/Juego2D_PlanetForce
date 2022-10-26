@@ -250,7 +250,7 @@ public class GameManager : MonoBehaviour
         player.SetGodModeDuration(gameManagerData.godModeDuration);
         player.Respawn();
         backgroundManager.Resume();
-        spawnerManager.Resume();
+        //spawnerManager.Resume(); // Por ahora no se está haciendo un Stop cuando muere el player
     }
 
     IEnumerator EnterPressedRoutine(string text)

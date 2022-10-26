@@ -12,6 +12,7 @@ public class EntityData : ScriptableObject
     public float minSecondsBetweenFire = 1;
     public float maxSecondsBetweenFire = 10;
     public float notFireBelowThisHeight = -8f;
+    public float destroyBelowThisHeight = -10f;
 
     [Header("Audio Clips")]
     [Space(10)]

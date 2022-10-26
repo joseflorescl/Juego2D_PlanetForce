@@ -34,8 +34,9 @@ public class PlayerController : EntityController
         originalWeapon = bulletFactory;
     }
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
         transform.position = respawnPosition;
         ResetSpeed();
         CalculateLimitWorldPosition();
