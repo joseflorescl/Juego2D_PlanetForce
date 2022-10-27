@@ -11,6 +11,7 @@ public class PlayerController : EntityController
     [SerializeField] private float animSpeedX = 1f;
     [SerializeField] private Vector2 respawnPosition;
     [SerializeField] private Collider2D powerUpCollider; // Usado para que el player pueda agarrar los power up cuando está en GodMode
+    [SerializeField] private int burstFireBullets = 5; // Cantidad de disparos que salen al presionar 1 vez el botón
 
     [Header("Limit Movement in Percentage (0-1)")]
     [SerializeField] private Vector2 minScreen;
@@ -25,8 +26,19 @@ public class PlayerController : EntityController
     float blendSpeedX;
     ProjectileFactory originalWeapon;
     bool hasPowerUpWeapon;
-    
+    int burstFireCounter;
 
+    bool GetFireButtonDown => Input.GetKeyDown(KeyCode.LeftControl)
+        || Input.GetKeyDown(KeyCode.RightControl)
+        || Input.GetButtonDown("Fire1");
+
+    bool GetFireButtonHeldDown => Input.GetKey(KeyCode.LeftControl)
+        || Input.GetKey(KeyCode.RightControl)
+        || Input.GetButton("Fire1");
+
+    bool GetFireButtonReleasedUp => Input.GetKeyUp(KeyCode.LeftControl)
+        || Input.GetKeyUp(KeyCode.RightControl)
+        || Input.GetButtonUp("Fire1");
 
     protected override void Awake()
     {
@@ -44,23 +56,17 @@ public class PlayerController : EntityController
         nextFire = 0f;
         blendSpeedX = 0;
         hasPowerUpWeapon = false;
+        burstFireCounter = 0;
     }
 
     void Update()
     {
         if (entityHealth.IsDead) return;
 
-        bool buttonPressedDown = Input.GetKeyDown(KeyCode.LeftControl) 
-                              || Input.GetKeyDown(KeyCode.RightControl) 
-                              || Input.GetButtonDown("Fire1");
-
-        bool buttonPressed = Input.GetKey(KeyCode.LeftControl) 
-                          || Input.GetKey(KeyCode.RightControl) 
-                          || Input.GetButton("Fire1");
-
-        if ( (buttonPressedDown || (hasPowerUpWeapon && buttonPressed)) && Time.time > nextFire)
+        if (InputFireRequested() && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
+            burstFireCounter++;
             FireBullet();
         }
 
@@ -69,7 +75,6 @@ public class PlayerController : EntityController
         UpdateMovement(horizontal, vertical);
         UpdateAnimation(horizontal, vertical);
     }
-
     
 
     public void ActivateSpeedAndWeaponPowerUp(float speed, ProjectileFactory weapon)
@@ -118,6 +123,22 @@ public class PlayerController : EntityController
         anim.SetFloat("GodModeDuration", 1f / godModeDuration);
     }
 
+    bool InputFireRequested()
+    {
+        bool buttonPressedDown = GetFireButtonDown;
+        bool buttonHeldDown = GetFireButtonHeldDown;
+        bool buttonReleasedUp = GetFireButtonReleasedUp;
+
+        if (buttonReleasedUp)
+            burstFireCounter = 0;
+
+        bool fireRequested = (buttonPressedDown
+            || (buttonHeldDown && hasPowerUpWeapon)
+            || (buttonHeldDown && burstFireCounter < burstFireBullets));
+
+        return fireRequested;
+    }
+
     void SetNewSpeed(float speed)
     {
         speedX = speed;
@@ -129,7 +150,7 @@ public class PlayerController : EntityController
         bulletFactory = originalWeapon;
     }
 
-    private void UpdateMovement(float horizontal, float vertical)
+    void UpdateMovement(float horizontal, float vertical)
     {
         if (horizontal == 0 && vertical == 0) return;
 
@@ -143,7 +164,7 @@ public class PlayerController : EntityController
         ClampWorldPosition();
     }
 
-    private void UpdateAnimation(float horizontal, float vertical)
+    void UpdateAnimation(float horizontal, float vertical)
     {
         blendSpeedX = Mathf.MoveTowards(blendSpeedX, horizontal, animSpeedX * Time.deltaTime);
         Vector2 movement;
@@ -152,12 +173,12 @@ public class PlayerController : EntityController
         UpdateAnimation(movement);
     }
 
-    private void CalculateSpeedY(float speedX)
+    void CalculateSpeedY(float speedX)
     {
         speedY = speedX * Screen.height / Screen.width;
     }
 
-    private void CalculateLimitWorldPosition()
+    void CalculateLimitWorldPosition()
     {
         minWorldPosition = Camera.main.ViewportToWorldPoint(minScreen);
         maxWorldPosition = Camera.main.ViewportToWorldPoint(maxScreen);
@@ -165,7 +186,7 @@ public class PlayerController : EntityController
         maxWorldPosition -= (Vector2)entityRenderer.Extents;
     }
 
-    private void ClampWorldPosition()
+    void ClampWorldPosition()
     {
         var pos = transform.position;
 

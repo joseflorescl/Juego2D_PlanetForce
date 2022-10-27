@@ -248,6 +248,7 @@ MonoBehaviour:
   animSpeedX: 5
   respawnPosition: {x: 0, y: -5}
   powerUpCollider: {fileID: 7534611813738368506}
+  burstFireBullets: 3
   minScreen: {x: 0, y: 0.045}
   maxScreen: {x: 1, y: 0.936}
 --- !u!114 &4998027923416959939
