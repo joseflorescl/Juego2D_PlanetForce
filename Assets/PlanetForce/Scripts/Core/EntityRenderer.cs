@@ -28,17 +28,32 @@ public class EntityRenderer : MonoBehaviour
 
     private void OnBecameInvisible()
     {
+        // Nota: a veces en el editor de Unity puede salir este error:
+        // Coroutine couldn't be started because the the game object 'Model' is inactive!
+        // Pero ese es un error que solo pasa en el editor de vez en cuando: es como que un objeto se instancia 
+        // pero sin estar visible en pantalla ni menos hacerse invisible, se llama al evento OnBecameInvisible()
+        // pero el objeto no está activo. Por eso se agrega esta condición de borde, para que no aparezca ese error
+        if (!gameObject.activeInHierarchy)
+        {
+            print("Se ejecuta OnBecameInvisible en un objeto NO activo...es un error que solo pasa en el editor");
+            return;
+        }
+
         isVisible = false;
         if (wasVisible && destroyParentOnBecameInvisible)
-        {
-            Destroy(transform.parent.gameObject, delayToDestroy);
-        }
-        
+            StartCoroutine(DestroyWithDelay(delayToDestroy));
     }
 
     private void OnBecameVisible()
     {
         isVisible = true;
         wasVisible = true;
+    }
+
+    IEnumerator DestroyWithDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        //Destroy(transform.parent.gameObject);
+        PoolManager.Instance.Release(transform.parent.gameObject);
     }
 }

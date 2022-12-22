@@ -66,8 +66,10 @@ public class ProjectileFactory : MonoBehaviour
             rotation = Quaternion.LookRotation(Vector3.forward, velocityDirection);
         else
             rotation = projectilePrefab.transform.rotation;
-        
-        var projectile = Instantiate(projectilePrefab, position, rotation);
+
+        //var projectile = Instantiate(projectilePrefab, position, rotation);
+        var projectile = PoolManager.Instance.Get(projectilePrefab, position, rotation);
+
         // Notar que si se usa una interfaz IKinematicProjectile estamos obligados a usar GetComponent (performance!),
         //  go.GetComponent<IKinematicProjectile>()
         // porque el argumento projectilePrefab
