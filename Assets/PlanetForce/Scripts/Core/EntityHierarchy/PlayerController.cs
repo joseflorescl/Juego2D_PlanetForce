@@ -40,15 +40,16 @@ public class PlayerController : EntityController
         || Input.GetKeyUp(KeyCode.RightControl)
         || Input.GetButtonUp("Fire1");
 
-    protected override void Awake()
-    {
-        base.Awake();        
+    
+    private void OnEnable()
+    {        
         originalWeapon = bulletFactory;
+        Init();
     }
 
-    protected override void Start()
+    public override void Init()
     {
-        base.Start();
+        // En este caso NO es necesario llamar al base de la clase padre
         transform.position = respawnPosition;
         ResetSpeed();
         CalculateLimitWorldPosition();

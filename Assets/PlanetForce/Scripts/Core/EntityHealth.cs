@@ -17,8 +17,13 @@ public class EntityHealth : MonoBehaviour, IDamageable
     private void Awake()
     {
         entityController = GetComponent<EntityController>();
-        RestoreHealth(); // Es fundamental que el seteo de health se haga en el Awake, no en el Start, porque es usada por la entity
     }
+
+    private void OnEnable() // PoolManager Compatible
+    {
+        RestoreHealth();
+    }
+
 
     public void RestoreHealth()
     {

@@ -11,26 +11,16 @@ public class EntityToTargetMovementController : EntityController
 
     float DurationInMovement => Random.Range(minWaitInMovement, maxWaitInMovement);
     float DurationNoMovement => Random.Range(minWaitNoMovement, maxWaitNoMovement);
-
-    protected override void Awake()
-    {
-        base.Awake();
-        SetKinematicVelocity(transform.up, entityData.speed);
+    
+    private void OnEnable()
+    {        
+        SetKinematicVelocity(transform.up, entityData.speed); 
     }
 
-    //TODO: Pendiente: probar bien por qué a veces se instancian enemigos Yashichi pero son eliminados casi inmeditamente
-    //  yo creo que la culpa es estar probando en el editor (no en el build) y el incorrecto funcionamiento
-    //  del OnBecomeInvisible que es el que seguramente me lo está destruyendo.
-    //TODO: tengo desactivado en el prefab, en comp Entity Renderer, por si acaso...
-    //private void OnDisable()
-    //{
-    //    print("   OnDisable de Yashichi con velocidad = " + rb2D.velocity + " Posición: " + transform.position);
-    //}
-
-    protected override void Start()
+    public override void Init()
     {
-        base.Start();
-        StartCoroutine(FireRoutineToTarget());
+        base.Init();
+        StartCoroutine(FireRoutineToTarget()); 
         StartCoroutine(MoveToTarget());
     }
 
@@ -48,7 +38,7 @@ public class EntityToTargetMovementController : EntityController
     }
 
     IEnumerator MoveToTarget()
-    {
+    {        
         float speed = rb2D.velocity.magnitude;
 
         // Al ppio lo moveremos a una speed == a la mitad seteada por el creador de este enemigo (spawner o manual)

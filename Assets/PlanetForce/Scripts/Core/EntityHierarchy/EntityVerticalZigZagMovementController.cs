@@ -12,22 +12,20 @@ public class EntityVerticalZigZagMovementController : EntityController
     float RandomXMagnitude => Random.Range(minXMagnitude, maxXMagnitude);
     float DurationBeforeChangeDirection => Random.Range(minWaitBeforeChangeDirection, maxWaitBeforeChangeDirection);
     Vector2 GetDownwardDirection(int xDirection) => new Vector2(xDirection * RandomXMagnitude, -1);
-
-
-    protected override void Awake()
+    
+    private void OnEnable() // Pool Manager Compatible
     {
-        base.Awake();
         SetKinematicVelocity(transform.up, entityData.speed);
     }
 
-    protected override void Start()
+    public override void Init()
     {
-        base.Start();
+        base.Init();
         StartCoroutine(FireRoutineToTarget());
         StartCoroutine(MoveVerticalZigZag());
     }
 
-    
+
     IEnumerator MoveVerticalZigZag()
     {
         float speed = rb2D.velocity.magnitude;

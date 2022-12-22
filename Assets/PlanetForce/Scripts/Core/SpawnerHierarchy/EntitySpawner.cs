@@ -10,5 +10,6 @@ public class EntitySpawner : Spawner<EntityController>
         //  dependiendo del nivel de dificultad actual del juego que lo debería manejar el GameManager
         // Lo otro también es que el Spawner incremente sus propios valores de burst de entidades de acuerdo a la dificultad
         entity.SetKinematicVelocity(entity.transform.up, spawnerData.startSpeed);
+        entity.Init();
     }
 }

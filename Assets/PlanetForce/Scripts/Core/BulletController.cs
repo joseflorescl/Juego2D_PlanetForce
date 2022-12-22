@@ -26,6 +26,7 @@ public class BulletController : KinematicProjectile
     // El análisis de cuánto daño hace la bala se hace en la componente DoDamage
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
+        //Destroy(gameObject);
+        PoolManager.Instance.Release(gameObject);
     }
 }

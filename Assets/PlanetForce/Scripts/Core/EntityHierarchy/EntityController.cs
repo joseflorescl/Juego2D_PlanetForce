@@ -33,6 +33,8 @@ public abstract class EntityController : KinematicProjectile
 
     public bool IsDead => entityHealth.IsDead;
 
+    bool initWasCalled;
+
     protected virtual void Awake()
     {
         gameManager = FindObjectOfType<GameManager>(); // Esto podría ser un Singleton o equivalente
@@ -43,12 +45,24 @@ public abstract class EntityController : KinematicProjectile
         entityRenderer = GetComponentInChildren<EntityRenderer>(); // Es la abstracción del SpriteRenderer que esta en hijo Model
         entityHealth = GetComponent<EntityHealth>();
         entityVFX = GetComponent<EntityVFX>();
+        initWasCalled = false;
     }
 
-    protected virtual void Start()
+    private void Start()
     {
+        if (!initWasCalled)
+        {
+            print("EntityController.Init llamado desde el Start");
+            Init();
+        }
+    }
+
+    public virtual void Init() // Llamado luego de hacer un Get del Pool Manager
+    {
+        initWasCalled = true;
         StartCoroutine(DestroyBelowThisHeightRoutine(entityData.destroyBelowThisHeight));
     }
+
 
     protected void EntityAppearsInBattle()
     {
@@ -99,7 +113,7 @@ public abstract class EntityController : KinematicProjectile
 
     public virtual void Damage()
     {        
-        anim.SetFloat("CurrentHealth", entityHealth. CurrentHealthPercentage);
+        anim.SetFloat("CurrentHealth", entityHealth.CurrentHealthPercentage);
         gameManager?.EntityDamaged(this);
         entityVFX?.PlayDamage();
     }
@@ -178,7 +192,10 @@ public abstract class EntityController : KinematicProjectile
         while(true)
         {
             if (transform.position.y <= height)
-                Destroy(gameObject);
+            {
+                if (!PoolManager.Instance.Release(gameObject))
+                    Destroy(gameObject);
+            }
 
             yield return new WaitForSeconds(delayValidateHeight);
         }

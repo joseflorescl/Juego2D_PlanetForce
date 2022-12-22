@@ -174,7 +174,8 @@ public class BackgroundManager : MonoBehaviour
     private void SwapNewBackgrounds()
     {
         // El primer background se elimina
-        Destroy(backgrounds[0].gameObject);
+        //Destroy(backgrounds[0].gameObject);
+        PoolManager.Instance.Release(backgrounds[0].gameObject);
 
         // Se reacomoda el array de backgrounds (es como un stack)
         int size = backgrounds.Length;

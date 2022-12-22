@@ -14,13 +14,12 @@ public class EnemyAndorGenesis : EntityWayPointsMovementController
         entitySpawners = GetComponentsInChildren<EntitySpawner>(); 
     }
 
-    protected override void Start()
+
+    private void OnEnable()
     {
-        base.Start();
         EntityAppearsInBattle();
     }
 
-    
 
     public override void Damage()
     {

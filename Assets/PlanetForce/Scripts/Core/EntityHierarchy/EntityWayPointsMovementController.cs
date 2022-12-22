@@ -6,16 +6,14 @@ public class EntityWayPointsMovementController : EntityController
 {
     [SerializeField] private WayPointsData wayPoints;
 
-    protected override void Awake()
+    private void OnEnable()
     {
-        base.Awake();        
         SetKinematicVelocity(transform.up, entityData.speed);
     }
 
-
-    protected override void Start()
-    {        
-        base.Start();
+    public override void Init()
+    {
+        base.Init();
         StartCoroutine(FireRoutineToTarget());
         StartCoroutine(MoveBetweenWayPointsRoutine());
     }
@@ -28,11 +26,11 @@ public class EntityWayPointsMovementController : EntityController
         SetWeightAnimationLayer("Damage Layer", 0);
     }
 
-
-    
-
     IEnumerator MoveBetweenWayPointsRoutine()
     {
+        // TODO: entonces como ya tenemos Init() este yield ya no va
+        //yield return null; // Se espera 1 frame para que el spawner setee la vel deseada por él, porque no tenemos un método tipo Init().
+
         float speed = rb2D.velocity.magnitude;
         while (!entityHealth.IsDead)
         {

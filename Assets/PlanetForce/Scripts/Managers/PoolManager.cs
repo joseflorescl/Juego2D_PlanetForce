@@ -87,7 +87,12 @@ public class PoolManager : MonoBehaviour
     private void OnValidate()
     {
         for (int i = 0; i < poolData.Length; i++)
-            poolData[i].name = poolData[i].prefab.name;
+        {
+            if (poolData[i].prefab)
+            {
+                poolData[i].name = poolData[i].prefab.name;
+            }
+        }
     }
 
     private void Awake()
@@ -124,6 +129,17 @@ public class PoolManager : MonoBehaviour
         var obj = pool.Get();
         obj.transform.SetPositionAndRotation(position, rotation);
         
+        return (T)obj;
+    }
+
+    public T Get<T>(T prefab, Transform parent) where T : Component
+    {
+        var pool = GetPoolOrCreate(prefab);
+        prefabTemp = prefab;
+        parentTemp = parent;
+        var obj = pool.Get();
+        obj.transform.parent = parent;
+
         return (T)obj;
     }
 
