@@ -33,7 +33,7 @@ public abstract class EntityController : KinematicProjectile
 
     public bool IsDead => entityHealth.IsDead;
 
-    bool initWasCalled;
+    protected bool initWasCalled;
 
     protected virtual void Awake()
     {
@@ -48,11 +48,11 @@ public abstract class EntityController : KinematicProjectile
         initWasCalled = false;
     }
 
-    private void Start()
+    protected virtual void Start()
     {
         if (!initWasCalled)
         {
-            print("EntityController.Init llamado desde el Start");
+            print(Time.frameCount + " - EntityController.Init llamado desde el Start: " + name);
             Init();
         }
     }
@@ -61,6 +61,7 @@ public abstract class EntityController : KinematicProjectile
     {
         initWasCalled = true;
         StartCoroutine(DestroyBelowThisHeightRoutine(entityData.destroyBelowThisHeight));
+        EnableColliders();
     }
 
 
@@ -192,10 +193,7 @@ public abstract class EntityController : KinematicProjectile
         while(true)
         {
             if (transform.position.y <= height)
-            {
-                if (!PoolManager.Instance.Release(gameObject))
-                    Destroy(gameObject);
-            }
+                PoolManager.Instance.Release(gameObject);
 
             yield return new WaitForSeconds(delayValidateHeight);
         }

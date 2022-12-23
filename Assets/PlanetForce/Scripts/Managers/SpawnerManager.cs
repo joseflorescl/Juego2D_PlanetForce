@@ -62,8 +62,8 @@ public class SpawnerManager : MonoBehaviour
     {
         var objects = GameObject.FindGameObjectsWithTag(tag);
         for (int i = 0; i < objects.Length; i++)
-        {
-            Destroy(objects[i]);
+        {            
+            PoolManager.Instance.Release(objects[i]);
         }
     }
 

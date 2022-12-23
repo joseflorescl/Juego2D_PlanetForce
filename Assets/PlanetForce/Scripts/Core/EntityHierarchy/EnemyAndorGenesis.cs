@@ -15,8 +15,15 @@ public class EnemyAndorGenesis : EntityWayPointsMovementController
     }
 
 
-    private void OnEnable()
+    // TODO: borrar este comentario
+    //private void OnEnable()
+    //{
+    //    EntityAppearsInBattle();
+    //}
+
+    public override void Init()
     {
+        base.Init();
         EntityAppearsInBattle();
     }
 

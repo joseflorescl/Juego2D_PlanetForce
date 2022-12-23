@@ -25,8 +25,7 @@ public class BackgroundManagerData : ScriptableObject
         prevIdx = currentIdx;
         currentIdx = Random.Range(0, backgroundPrefabs.Length);
         if (currentIdx == prevIdx) // para que no tengamos 2 sprites seguidos
-            currentIdx = (currentIdx + 1) % backgroundPrefabs.Length;
-        //var spriteRenderer = Instantiate(backgroundPrefabs[currentIdx], parent);
+            currentIdx = (currentIdx + 1) % backgroundPrefabs.Length;        
         var spriteRenderer = PoolManager.Instance.Get(backgroundPrefabs[currentIdx], parent);
         return spriteRenderer;
     }

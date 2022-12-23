@@ -2,26 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
 
-public enum CreatePoolMode { Start, FirstGet, Default };
-
-[System.Serializable]
-public struct PoolData
-{
-    public string name; // Automáticamente se colocará el nombre del prefab, en el OnValidate
-    public Component prefab; 
-        // Este prefab se inicializa en el Inspector.
-        // Tener el cuidado de que al hacer drag&drop del prefab desde la ventana Project hacia el Inspector
-        // NO se debe hacer directamente desde el prefab sino que desde LA componente del prefab que se quiera elegir.
-        //  - Hacer Lock en el Inspector para el objeto "Pool Manager"
-        //  - En la carpeta Project seleccionar el prefab: botón derecho, Properties
-        //  - Hacer drag&drop de LA componente específica del prefab (ej: MissileController) al elemento prefab de poolData
-    public int defaultCapacity;
-    public int maxSize;
-    public CreatePoolMode createPoolMode;
-    public Transform parent; // Puede ser null
-}
-
-
 public class PoolManager : MonoBehaviour
 {
     /* Ej de uso del PoolManager:
@@ -54,8 +34,9 @@ public class PoolManager : MonoBehaviour
     [SerializeField] private int maxSize = 100;
     [SerializeField] private bool defaultCreateObjects = false;
     [SerializeField] private bool collectionCheck = true; // Recordar que esto solo es para el Editor, para ver errores en caso de usar mal el Release
+    [SerializeField] private bool forceDestroy = true; //Indica si al ejecutar Release(obj) no existe pool configurado para ese obj, que hago: Destroy(obj) o nada.
     [SerializeField] private Transform defaultParent;
-    [SerializeField] private PoolData[] poolData;
+    [SerializeField] private PoolManagerData data;
 
     // Cada elemento de este dictionary es un pool para un prefab en particular.    
     // El int corresponde al prefab.gameObject.GetInstanceID()
@@ -78,22 +59,17 @@ public class PoolManager : MonoBehaviour
     // Por eso usamos un objeto Dictionary que me asocia el <id del prefab, PoolData configurada en el Inspector>    
     Dictionary<int, PoolData> poolDataLookup;
 
+    // En caso que se active el flag createParent, el Transform del objeto padre creado se podrá accesar con este dict
+    //  que asocia el <id del prefab, Transform del padre de los objetos que se crean de ese prefab>
+    Dictionary<int, Transform> parentLookup;
+
     // Como la función CreateFunc no puede recibir argumentos, cuando se quiera hacer el Instantiate de un nuevo objeto
     // se usarán estar vars
     Component prefabTemp; 
     Transform parentTemp;
 
 
-    private void OnValidate()
-    {
-        for (int i = 0; i < poolData.Length; i++)
-        {
-            if (poolData[i].prefab)
-            {
-                poolData[i].name = poolData[i].prefab.name;
-            }
-        }
-    }
+    
 
     private void Awake()
     {
@@ -102,26 +78,47 @@ public class PoolManager : MonoBehaviour
         objectPoolLookup = new Dictionary<int, IObjectPool<Component>>();
         componentLookup = new Dictionary<int, Component>();
         poolDataLookup = new Dictionary<int, PoolData>();
+        parentLookup = new Dictionary<int, Transform>();
     }
 
     private void Start()
     {
-        for (int i = 0; i < poolData.Length; i++)
+        CreatePoolsModeStart();
+    }
+
+    void CreatePoolsModeStart()
+    {
+        if (data)
         {
-            var poolDataItem = poolData[i];
-            int prefabID = poolDataItem.prefab.gameObject.GetInstanceID();
-            poolDataLookup[prefabID] = poolDataItem;
-            
-            if (poolDataItem.createPoolMode == CreatePoolMode.Start)
-                CreatePool(poolDataItem.prefab, poolDataItem.defaultCapacity, poolDataItem.maxSize, true, poolDataItem.parent);
+            for (int i = 0; i < data.poolData.Length; i++)
+            {
+                var poolDataItem = data.poolData[i];
+                int prefabID = poolDataItem.prefab.gameObject.GetInstanceID();
+                poolDataLookup[prefabID] = poolDataItem;
+
+                if (poolDataItem.createPoolMode == CreatePoolMode.Start)
+                {                    
+                    Transform parent = poolDataItem.createParent ? CreateParent(poolDataItem) : defaultParent;
+                    CreatePool(poolDataItem.prefab, poolDataItem.defaultCapacity, poolDataItem.maxSize, true, parent);
+                }
+            }
         }
+    }
+
+    Transform CreateParent(PoolData poolDataItem)
+    {
+        GameObject parentObject = new GameObject(poolDataItem.prefab.name + " - Object Pool");
+        Transform parent = parentObject.transform;
+        int prefabID = poolDataItem.prefab.gameObject.GetInstanceID();
+        parentLookup[prefabID] = parent;
+        return parent;
     }
 
     public T Get<T>(T prefab, Vector3 position, Quaternion rotation) where T : Component
     {        
         var pool = GetPoolOrCreate(prefab);
         prefabTemp = prefab;
-        parentTemp = GetParentByPrefab(prefab);
+        parentTemp = GetParent(prefab.gameObject.GetInstanceID());
 
         // Importante: la función pool.Get PUEDE llamar al método CreateFunc, el cual hará el Instantiate
         //  por lo que se requiere tener seteado los valores de las vars prefabTemp y parentTemp, porque la
@@ -130,6 +127,14 @@ public class PoolManager : MonoBehaviour
         obj.transform.SetPositionAndRotation(position, rotation);
         
         return (T)obj;
+    }
+
+    Transform GetParent(int prefabID)
+    {
+        if (parentLookup.TryGetValue(prefabID, out var parent))
+            return parent;
+        else
+            return defaultParent;
     }
 
     public T Get<T>(T prefab, Transform parent) where T : Component
@@ -160,7 +165,7 @@ public class PoolManager : MonoBehaviour
                 capacity = poolDataItem.defaultCapacity;
                 size = poolDataItem.maxSize;
                 createObjects = poolDataItem.createPoolMode == CreatePoolMode.FirstGet || defaultCreateObjects;
-                parent = poolDataItem.parent;
+                parent = poolDataItem.createParent ? CreateParent(poolDataItem) : defaultParent;
             }
             else
             {
@@ -175,26 +180,21 @@ public class PoolManager : MonoBehaviour
 
         return pool;
     }
-
-    Transform GetParentByPrefab(Component prefab)
-    {
-        int prefabID = prefab.gameObject.GetInstanceID();
-
-        if (poolDataLookup.TryGetValue(prefabID, out var poolDataItem))
-            return poolDataItem.parent;
-        else
-            return defaultParent;
-    }
     
     public bool Release(GameObject obj)
     {
+        // Condición de borde: si se crea un objeto extra al maxSize, entonces ese objeto será destruido con Destroy,
+        //  no lo mantendremos en el pool.
+        //  Pero si ese objeto "muere" 2 veces en el mismo frame, por ej 2 balas lo chocan a la vez, entonces se llamará
+        //  2 veces este método Release: la primera vez el objeto será destruido, y la segunda vez el método se cae
+        //  porque la var obj ya es null. Por eso se debe validar el null:
+        if (!obj)
+            return false; // Un objeto ya fue destruido del pool. Se está tratando de hacer un Release
+
         // Para validar si se está tratando de hacer Release 2 veces de un objeto ya devuelto al pool:
         //  una validación simple es si el obj ya está desactivado:
         if (collectionCheck && !obj.activeInHierarchy)
-        {
-            print("Release de un objeto ya desactivado");
-            return false;
-        }
+            return false; // Release de un objeto ya desactivado
 
         var gameObjectID = obj.GetInstanceID();
         if (objectPoolLookup.TryGetValue(gameObjectID, out var pool))
@@ -204,9 +204,10 @@ public class PoolManager : MonoBehaviour
             return true;
         }
         else
-        {
-            print("Error al usar el Pool Manager: se quiere liberar un objeto que no fue creado por el Pool Manager: " + obj.name);
-            return false;
+        {            
+            if (forceDestroy) 
+                Destroy(obj);
+            return false; // Se quiere liberar un objeto que no fue creado por el Pool Manager
         }
 
     }
@@ -226,7 +227,7 @@ public class PoolManager : MonoBehaviour
     }
 
     void CreateObjectsInPool(Component prefab, Transform parent, IObjectPool<Component> pool, int defaultCapacity)
-    {
+    {        
         prefabTemp = prefab;
         parentTemp = parent;
         Component[] objectsCreated = new Component[defaultCapacity];

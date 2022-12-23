@@ -26,8 +26,8 @@ public abstract class PowerUpController : MonoBehaviour
         // El layer PowerUp solo puede colisionar consigo mismo
         // Por eso el objeto del player tiene un collider especializado para esto.
         // Nada más puede colisionar con un powerup, por eso no se valida con un if el tipo de objeto que viene en collision
-        PowerUpCatched();// Esto perfectamente podría ser un evento...
-        Destroy(gameObject);
+        PowerUpCatched();// Esto perfectamente podría ser un evento...        
+        PoolManager.Instance.Release(gameObject);
     }
 
 }

@@ -16,6 +16,16 @@ public class OnBecameTests : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(rend.isVisible);
+        //print(rend.isVisible);
+    }
+
+    private void OnBecameVisible()
+    {
+        print("OnBecameVisible " + name);
+    }
+
+    private void OnBecameInvisible()
+    {
+        print("OnBecameInvisible " + name);
     }
 }

@@ -25,8 +25,7 @@ public class BulletController : KinematicProjectile
     // Cuando una bala cumple su cometido de chocar con algo: se autodestruye
     // El análisis de cuánto daño hace la bala se hace en la componente DoDamage
     private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //Destroy(gameObject);
+    {        
         PoolManager.Instance.Release(gameObject);
     }
 }

@@ -184,12 +184,20 @@ public class GameManager : MonoBehaviour
     }
 
     void EnemyDead(EntityController enemy)
-    {        
-        Destroy(enemy.gameObject, enemy.DelayToDestroy); // con tiempo para que se alcance a reproducir la animación de muerte
+    {                
+        StartCoroutine(DestroyWithDelay(enemy.gameObject, enemy.DelayToDestroy)); // con tiempo para que se alcance a reproducir la animación de muerte
         gameplayData.Score += enemy.ScorePoints;
         uiManager.UpdateScore(gameplayData.Score);
         ExtraLifeValidation();
     }
+
+    IEnumerator DestroyWithDelay(GameObject obj, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        PoolManager.Instance.Release(obj);
+    }
+
+
 
     IEnumerator PlayerDead()
     {

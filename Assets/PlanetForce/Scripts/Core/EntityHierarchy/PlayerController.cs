@@ -39,17 +39,18 @@ public class PlayerController : EntityController
     bool GetFireButtonReleasedUp => Input.GetKeyUp(KeyCode.LeftControl)
         || Input.GetKeyUp(KeyCode.RightControl)
         || Input.GetButtonUp("Fire1");
-
-    
-    private void OnEnable()
-    {        
+        
+    protected override void Start() // Notar que el Player NO hará uso del Pool Manager, por eso puede usar Start
+    {
         originalWeapon = bulletFactory;
         Init();
     }
 
+
     public override void Init()
     {
         // En este caso NO es necesario llamar al base de la clase padre
+        initWasCalled = true;
         transform.position = respawnPosition;
         ResetSpeed();
         CalculateLimitWorldPosition();

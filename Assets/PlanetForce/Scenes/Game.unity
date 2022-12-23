@@ -1363,8 +1363,9 @@ MonoBehaviour:
   maxSize: 50
   defaultCreateObjects: 1
   collectionCheck: 1
+  forceDestroy: 1
   defaultParent: {fileID: 0}
-  poolData: []
+  data: {fileID: 11400000, guid: 820ea593dc399fe4a9192bdb169b7d8e, type: 2}
 --- !u!1 &303070804
 GameObject:
   m_ObjectHideFlags: 0

@@ -102,8 +102,7 @@ public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour // Sin 
     }    
 
     T Create(Vector3 position)
-    {
-        //return Instantiate(prefab, position + spawnerData.offsetPosition, spawnerData.SpawnRotation);        
+    {        
         return PoolManager.Instance.Get(prefab, position + spawnerData.offsetPosition, spawnerData.SpawnRotation);
     }
 
