@@ -75,7 +75,9 @@ public class ProjectileFactory : MonoBehaviour
         //  no puede declararse de tipo IKinematicProjectile, debe ser de una clase concreta que herede de MB.
         // Por eso se usa la opción de la herencia, declarando una clase padre KinematicProjectile de la cual
         // heredan las Bullet y las Entity
-        projectile.SetKinematicVelocity(velocityDirection, (speed == 0) ? projectile.Speed : speed);        
+        projectile.SetKinematicVelocity(velocityDirection, (speed == 0) ? projectile.Speed : speed);
+        projectile.Init(); // Nota: esta llamada es necesaria para inicializar el prefab "Enemy Vulgus Yashichi - Inside Andor Genesis"
+                           //  el que no se está usando desde el Spawner, sino que desde el Fire del ProjectileFactory
     }
 
     void CalculateMinMaxRange()

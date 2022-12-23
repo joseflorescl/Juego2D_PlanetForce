@@ -51,13 +51,10 @@ public abstract class EntityController : KinematicProjectile
     protected virtual void Start()
     {
         if (!initWasCalled)
-        {
-            print(Time.frameCount + " - EntityController.Init llamado desde el Start: " + name);
-            Init();
-        }
+            Init(); // Se usa para aquellos enemigos que se instancian directamente en la jerarquía y no usando el Pool Manager
     }
-
-    public virtual void Init() // Llamado luego de hacer un Get del Pool Manager
+    
+    public override void Init() // Llamado luego de hacer un Get del Pool Manager
     {
         initWasCalled = true;
         StartCoroutine(DestroyBelowThisHeightRoutine(entityData.destroyBelowThisHeight));

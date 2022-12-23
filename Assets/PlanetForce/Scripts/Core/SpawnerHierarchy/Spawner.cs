@@ -20,7 +20,7 @@ public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour // Sin 
      float xEquidistant,
      float deltaXEquidistant) lineEquidistantData;
 
-    protected virtual void OnEnable() 
+    protected virtual void OnEnable()
     {
         // No se usa Start porque el spawner se podría volver a activar segun las necesidades del SpawnerManager
         //  Aquí se podrían modificar los valores que vienen en spawnerData de acuerdo al nivel de dificultad del juego
@@ -74,7 +74,7 @@ public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour // Sin 
     }
 
     protected abstract void SetValuesPostCreation(T instance);
-    
+
 
     private void CalculateEquidistantValues()
     {
@@ -99,10 +99,10 @@ public abstract class Spawner<T> : MonoBehaviour where T : MonoBehaviour // Sin 
     public void Deactivate()
     {
         gameObject.SetActive(false);
-    }    
+    }
 
     T Create(Vector3 position)
-    {        
+    {
         return PoolManager.Instance.Get(prefab, position + spawnerData.offsetPosition, spawnerData.SpawnRotation);
     }
 

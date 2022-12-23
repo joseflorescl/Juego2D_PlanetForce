@@ -28,4 +28,6 @@ public class BulletController : KinematicProjectile
     {        
         PoolManager.Instance.Release(gameObject);
     }
+
+    public override void Init() { }
 }
