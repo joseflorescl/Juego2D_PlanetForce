@@ -51,7 +51,7 @@ public abstract class EntityController : KinematicProjectile
     protected virtual void Start()
     {
         if (!initWasCalled)
-            Init(); // Se usa para aquellos enemigos que se instancian directamente en la jerarquía y no usando el Pool Manager
+            Init(); // Se usa para aquellos enemigos que se instancian directamente en la jerarquía y no usando el Spawner + Pool Manager
     }
     
     public override void Init() // Llamado luego de hacer un Get del Pool Manager

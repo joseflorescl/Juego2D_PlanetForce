@@ -14,19 +14,11 @@ public class EnemyAndorGenesis : EntityWayPointsMovementController
         entitySpawners = GetComponentsInChildren<EntitySpawner>(); 
     }
 
-
-    // TODO: borrar este comentario
-    //private void OnEnable()
-    //{
-    //    EntityAppearsInBattle();
-    //}
-
     public override void Init()
     {
         base.Init();
         EntityAppearsInBattle();
     }
-
 
     public override void Damage()
     {
@@ -34,8 +26,6 @@ public class EnemyAndorGenesis : EntityWayPointsMovementController
         ActivateExplosions(entityHealth.CurrentHealthPercentage);        
         anim.SetTrigger("Damage");
     }
-
-    
 
     public override void Dead()
     {
@@ -51,8 +41,6 @@ public class EnemyAndorGenesis : EntityWayPointsMovementController
         SendEntityToBackground();
         entityVFX.PlayDead();
     }
-
-    
 
     void ActivateExplosions(float currentHealthPercentage)
     {
@@ -75,6 +63,4 @@ public class EnemyAndorGenesis : EntityWayPointsMovementController
         }
     }
 
-
-    
 }

@@ -228,6 +228,9 @@ public class PoolManager : MonoBehaviour
 
     void CreateObjectsInPool(Component prefab, Transform parent, IObjectPool<Component> pool, int defaultCapacity)
     {        
+        // Notar que si los objetos del Pool se crean en runtime (no en el Start), entonces si son muchos objetoi
+        //  se va a notar una pequeña baja en los FPS.
+        // Yo solo estoy usando FirstGet para los Sprites Renderers del Background.
         prefabTemp = prefab;
         parentTemp = parent;
         Component[] objectsCreated = new Component[defaultCapacity];
