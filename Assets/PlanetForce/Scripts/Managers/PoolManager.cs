@@ -253,8 +253,10 @@ public class PoolManager : MonoBehaviour
     private void OnTakeFromPool(Component obj) => obj.gameObject.SetActive(true);
     
     private void OnReturnedToPool(Component obj) => obj.gameObject.SetActive(false);
-    
-    private void OnDestroyPoolObject(Component obj) => Destroy(obj.gameObject);
-    
 
+    private void OnDestroyPoolObject(Component obj)
+    {
+        print("PoolManager: Destroy objeto que excede el maxSize: " + obj.name);
+        Destroy(obj.gameObject);
+    }
 }
