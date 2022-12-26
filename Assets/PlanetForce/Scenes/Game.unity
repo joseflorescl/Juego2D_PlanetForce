@@ -1365,6 +1365,7 @@ MonoBehaviour:
   collectionCheck: 1
   forceDestroy: 1
   defaultParent: {fileID: 0}
+  delayPoolCreation: 1
   data: {fileID: 11400000, guid: 820ea593dc399fe4a9192bdb169b7d8e, type: 2}
 --- !u!1 &303070804
 GameObject:

@@ -121,7 +121,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5344435850483363358
 Transform:
   m_ObjectHideFlags: 0
@@ -302,6 +302,7 @@ MonoBehaviour:
   firePoints:
   - transform: {fileID: 8498978674267677319}
     projectilePrefab: {fileID: 1465936847631119333, guid: ee35f290fa33f154ab28718d9a8ef379, type: 3}
+    speed: 0
   rotateToVelocityDirection: 0
 --- !u!1 &6579902591313957042
 GameObject:

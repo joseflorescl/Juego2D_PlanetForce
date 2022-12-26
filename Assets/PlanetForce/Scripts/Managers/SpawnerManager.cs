@@ -18,13 +18,14 @@ public class SpawnerManager : MonoBehaviour
     private void Start()
     {
         SetPositionTopCenterScreen();
-        Resume();
+        Stop();
+        Play();
     }
-    
 
-    public void Resume()
+
+    public void Play()
     {
-        playableDirector.Resume();
+        playableDirector.Play();
     }
 
     public void Stop()

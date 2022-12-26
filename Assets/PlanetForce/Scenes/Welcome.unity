@@ -173,6 +173,7 @@ MonoBehaviour:
   collectionCheck: 1
   forceDestroy: 1
   defaultParent: {fileID: 0}
+  delayPoolCreation: 10
   data: {fileID: 11400000, guid: e43ae096951fdf249985cfcec1a86a2b, type: 2}
 --- !u!1 &86036583
 GameObject:
@@ -227,7 +228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &138768611
 Transform:
   m_ObjectHideFlags: 0
@@ -348,7 +349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &243361895
 Transform:
   m_ObjectHideFlags: 0
@@ -1902,7 +1903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1390679239
 Transform:
   m_ObjectHideFlags: 0

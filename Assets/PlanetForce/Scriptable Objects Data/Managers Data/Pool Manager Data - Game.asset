@@ -73,6 +73,12 @@ MonoBehaviour:
     maxSize: 1
     createPoolMode: 1
     createParent: 0
+  - name: Player Bullet
+    prefab: {fileID: 6836169072225667782, guid: bef825a31658d0d418b28770c05e8a72, type: 3}
+    defaultCapacity: 65
+    maxSize: 75
+    createPoolMode: 0
+    createParent: 1
   - name: Enemy Xevious Toroid
     prefab: {fileID: 1872018902, guid: a238de1d502de1941810795f8952ded4, type: 3}
     defaultCapacity: 180
@@ -89,12 +95,6 @@ MonoBehaviour:
     prefab: {fileID: 9026577467537256578, guid: 85f5c43bf7d48b24ab2547b926cf2b7f, type: 3}
     defaultCapacity: 15
     maxSize: 20
-    createPoolMode: 0
-    createParent: 1
-  - name: Player Bullet
-    prefab: {fileID: 6836169072225667782, guid: bef825a31658d0d418b28770c05e8a72, type: 3}
-    defaultCapacity: 65
-    maxSize: 75
     createPoolMode: 0
     createParent: 1
   - name: Enemy Andor Genesis Bullet
