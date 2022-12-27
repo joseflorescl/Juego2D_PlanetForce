@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 58
+  controlID: 114
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,12 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1026
+    width: 1079
     height: 947
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 63
+  controlID: 53
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1026
+    width: 1079
     height: 402
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -190,10 +190,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 402
-    width: 1026
+    width: 1079
     height: 545
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -217,14 +217,14 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 1026
+    x: 1079
     y: 0
-    width: 504
+    width: 429
     height: 947
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 115
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,8 +242,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 504
-    height: 422
+    width: 429
+    height: 710
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -267,9 +267,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 422
-    width: 504
-    height: 525
+    y: 710
+    width: 429
+    height: 237
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
@@ -293,12 +293,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1530
+    x: 1508
     y: 0
-    width: 390
+    width: 412
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -326,7 +326,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 475
-    width: 1025
+    width: 1078
     height: 524
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -374,23 +374,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1025
+      width: 1078
       height: 503
-    m_Scale: {x: 0.46574074, y: 0.46574074}
-    m_Translation: {x: 512.5, y: 251.5}
+    m_Scale: {x: 0.4657407, y: 0.46574074}
+    m_Translation: {x: 539, y: 251.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1100.3976
+      x: -1157.2963
       y: -540
-      width: 2200.7952
+      width: 2314.5925
       height: 1080
     m_MinimalGUI: 1
   m_defaultScale: 0.46574074
-  m_LastWindowPixelSize: {x: 1025, y: 524}
+  m_LastWindowPixelSize: {x: 1078, y: 524}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -716,7 +716,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.16769324, y: -0.17728741, z: 0.030674504, w: -0.96929747}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -745,7 +745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1025
+    width: 1078
     height: 381
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -764,22 +764,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PlanetForce/Scenes
+    - Assets/PlanetForce/Scriptable Objects Data/Managers Data
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/PlanetForce/Scenes
+  - Assets/PlanetForce/Scriptable Objects Data/Managers Data
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\UnityGit\Juego2D_PlanetForce
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 287}
-    m_SelectedIDs: 12630000
-    m_LastClickedID: 25362
-    m_ExpandedIDs: 00000000ec620000ee620000f0620000f2620000f4620000f66200003463000000ca9a3b
+    scrollPos: {x: 0, y: 335}
+    m_SelectedIDs: a4730000
+    m_LastClickedID: 29604
+    m_ExpandedIDs: 00000000c6230000f4620000f6620000f862000004630000086300000a630000606a000076740000da790000c67a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -807,7 +807,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec620000ee620000f0620000f2620000f4620000f6620000
+    m_ExpandedIDs: 00000000f4620000f6620000f8620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -834,7 +834,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -893,7 +893,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 168796
+  m_LastSelectedObjectID: 48850
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -914,10 +914,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1026
+    x: 1079
     y: 73
-    width: 502
-    height: 401
+    width: 427
+    height: 689
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -927,7 +927,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4255d0fff8f0d0ffd68bd1ff488cd1ff2627d2ff9827d2ff7cc2d2ffeec2d2ffcc5dd3ff3e5ed3ff20f9d3ff92f9d3ff2efed3ffb691d4ffda2ad5ff942bd5ffca2bd5ffca2dd5ffe42dd5ff4cb9d7ffbeb9d7ff7699d9ff569ad9ffbe9bd9ffec9bd9ff2470daffc670daffa277daffdc77daff8a0ddbffa20ddbff14a5dbffb4afdbfface5dbffeaf1dbff42f5dbff76f5dbffb0f5dbfffe33dcff5637dcff8a37dcffc437dcffa26ddcffb86edcff2070dcff8075dcffc011ddff2883ddffae03deffe603deffd605defff005deff1a9fdeff509fdeff40a1deff5aa1deff1e8de0ff2026e1ff4e6ce1ff2c72e1ffe67de1ff7269e3ff7669e3ff329ce8ffdc37e9ff70c6edffb2c7edff70d0edff40f0edff42f2edff9c55eeff2c96eeff9014f2fffc25f2ff4c32f2ffe2daf2ff248bf3ffd2e3f3ffd69af8ff1c9bf8fffc9cf8ff169df8ff584ffcff6053fcff645bfcff864dfeffd67effff2493ffff0494ffffaa95ffff16d0ffff8ceaffff56ebffff26f8ffff26fbffff907f0000b29a00008edf0000e4e000003a230100bc2301007c9b0100d29c01007a9202008e920200ce9202005c930200509c0200a8a1020076a902008aa90200caa9020058aa0200ccae0200ceb702005cbe020070be0200b0be02003ebf020004c5020018c5020058c50200e6c50200dac80200e4c802006ac90200eac9020064ca0200b6cc0200cacc02000acd020098cd0200
+      m_ExpandedIDs: ce67f0ffec67f0ff36faf0ff54faf0ff1c60f1ff3a60f1ff48f9f1ff66f9f1ffcc92f2ffea92f2fff82bf3ff162cf3ff6cb6f3ff5ef6f3ffb02ef4fffacbf4ffaacff4ffd8d3f4ff02d6f4ff9e15f5ff64ebf6ff4c00f8ff3818f8ff1c1ef8ff347af9ff0eb0f9ffa600fdff7a05fdfff29efdff0222feff3c26feff102efeff68c6feff26fbffff406000009460000022610000b49a00004ac00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -971,10 +971,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1026
-    y: 495
-    width: 502
-    height: 504
+    x: 1079
+    y: 783
+    width: 407
+    height: 216
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -992,22 +992,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/PlanetForce/Scenes
+    - Packages/com.unity.ide.visualstudio/Editor/Plugins/AppleEventIntegration.bundle/Contents/_CodeSignature
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/PlanetForce/Scenes
+  - Packages/com.unity.ide.visualstudio/Editor/Plugins/AppleEventIntegration.bundle/Contents/_CodeSignature
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\UnityGit\Juego2D_PlanetForce
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 32}
-    m_SelectedIDs: 12630000
-    m_LastClickedID: 25362
-    m_ExpandedIDs: 00000000ec620000ee620000f46200003463000000ca9a3b
+    scrollPos: {x: 0, y: 988}
+    m_SelectedIDs: 14650000
+    m_LastClickedID: 25876
+    m_ExpandedIDs: 00000000c6230000f4620000f6620000f862000004630000086300000a630000606a000076740000da790000c67a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1035,7 +1035,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec620000ee620000f0620000f2620000f4620000f6620000
+    m_ExpandedIDs: 00000000f4620000f6620000f8620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1060,8 +1060,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: d2be0000
+    m_LastClickedInstanceID: 48850
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
@@ -1090,7 +1090,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 284.2
+  m_DirectoriesAreaWidth: 227
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1111,10 +1111,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1026
-    y: 495
-    width: 502
-    height: 504
+    x: 1079
+    y: 783
+    width: 427
+    height: 216
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1139,9 +1139,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1530
+    x: 1508
     y: 73
-    width: 389
+    width: 411
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
