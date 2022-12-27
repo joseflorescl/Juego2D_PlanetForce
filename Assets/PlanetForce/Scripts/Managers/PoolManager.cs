@@ -22,7 +22,7 @@ public class PoolManager : MonoBehaviour
 
     // Será singleton
     // También se configura que su orden de ejecución sea primero que el resto de los scripts
-    public static PoolManager instance = null;
+    private static PoolManager instance = null;
     public static PoolManager Instance => instance;
 
     [SerializeField] private int defaultCapacity = 10;
@@ -36,11 +36,11 @@ public class PoolManager : MonoBehaviour
 
     // Cada elemento de este dictionary es un pool para un prefab en particular.
     // Asocia: <ID del prefab == prefab.gameObject.GetInstanceID(), ObjectPool>            
-    Dictionary<int, IObjectPool<Component>> pools = new();
+    Dictionary<int, ObjectPool<Component>> pools = new();
 
     // En la funcion Release: necesito saber cual es el ObjectPool al que pertenece el gameObject instanciado de un prefab
     // Asocia: <ID del gameObject, ObjectPool>    
-    Dictionary<int, IObjectPool<Component>> objectPoolLookup = new();
+    Dictionary<int, ObjectPool<Component>> objectPoolLookup = new();
 
     // Y además en el método Release necesitamos la Component que hay que liberar.    
     // Asocia: <ID del gameObject, Component creada con el Instantiate>    
@@ -58,6 +58,11 @@ public class PoolManager : MonoBehaviour
     // se usarán estar vars
     Component prefabTemp;
     Transform parentTemp;
+    void SetTempVars(Component prefab, Transform parent)
+    {
+        prefabTemp = prefab;
+        parentTemp = parent;
+    }
 
     private void Awake()
     {
@@ -69,6 +74,45 @@ public class PoolManager : MonoBehaviour
     private void Start()
     {
         StartCoroutine(CreatePoolsModeStartRoutine());
+    }
+
+    public T Get<T>(T prefab, Vector3 position, Quaternion rotation) where T : Component
+    {
+        var parent = GetParentOrCreate(GetPrefabID(prefab));
+        var obj = GetFromPool(prefab, parent);
+        obj.transform.SetPositionAndRotation(position, rotation);
+        return (T)obj;
+    }
+
+    public T Get<T>(T prefab, Transform parent) where T : Component
+    {
+        var obj = GetFromPool(prefab, parent);
+        return (T)obj;
+    }
+
+    public bool Release(GameObject obj)
+    {
+        if (!obj)
+            return false; // Un objeto ya fue destruido del pool.
+
+        // Para validar si se está tratando de hacer Release 2 veces de un objeto ya devuelto al pool:
+        //  una validación simple es si el obj ya está desactivado:
+        if (collectionCheck && !obj.activeInHierarchy)
+            return false; // Release de un objeto ya desactivado
+
+        var gameObjectID = obj.GetInstanceID();
+        if (objectPoolLookup.TryGetValue(gameObjectID, out var pool))
+        {
+            var component = componentLookup[gameObjectID];
+            pool.Release(component);
+            return true;
+        }
+        else
+        {
+            if (forceDestroy)
+                Destroy(obj);
+            return false; // Se quiere liberar un objeto que no fue creado por el Pool Manager
+        }
     }
 
     bool SingletonAwakeValidation()
@@ -128,20 +172,7 @@ public class PoolManager : MonoBehaviour
             return defaultParent;
     }
 
-    public T Get<T>(T prefab, Vector3 position, Quaternion rotation) where T : Component
-    {
-        var parent = GetParentOrCreate(GetPrefabID(prefab));
-        var obj = GetFromPool(prefab, parent);
-        obj.transform.SetPositionAndRotation(position, rotation);
-        return (T)obj;
-    }
-
-    public T Get<T>(T prefab, Transform parent) where T : Component
-    {
-        var obj = GetFromPool(prefab, parent);
-        return (T)obj;
-    }
-
+  
     Component GetFromPool(Component prefab, Transform parent)
     {
         var pool = GetPoolOrCreate(prefab);
@@ -152,7 +183,7 @@ public class PoolManager : MonoBehaviour
         return obj;
     }
     
-    IObjectPool<Component> GetPoolOrCreate(Component prefab)
+    ObjectPool<Component> GetPoolOrCreate(Component prefab)
     {
         int prefabID = GetPrefabID(prefab);
 
@@ -176,33 +207,10 @@ public class PoolManager : MonoBehaviour
         return pool;
     }
 
-    public bool Release(GameObject obj)
-    {        
-        if (!obj) 
-            return false; // Un objeto ya fue destruido del pool.
-
-        // Para validar si se está tratando de hacer Release 2 veces de un objeto ya devuelto al pool:
-        //  una validación simple es si el obj ya está desactivado:
-        if (collectionCheck && !obj.activeInHierarchy)
-            return false; // Release de un objeto ya desactivado
-
-        var gameObjectID = obj.GetInstanceID();
-        if (objectPoolLookup.TryGetValue(gameObjectID, out var pool))
-        {
-            var component = componentLookup[gameObjectID];
-            pool.Release(component);
-            return true;
-        }
-        else
-        {
-            if (forceDestroy)
-                Destroy(obj);
-            return false; // Se quiere liberar un objeto que no fue creado por el Pool Manager
-        }
-    }
+   
 
 
-    IObjectPool<Component> CreatePool(Component prefab, int defaultCapacity, int maxSize, bool createObjects, Transform parent)
+    ObjectPool<Component> CreatePool(Component prefab, int defaultCapacity, int maxSize, bool createObjects, Transform parent)
     {
         int prefabID = GetPrefabID(prefab);
         if (pools.TryGetValue(prefabID, out var pool))
@@ -228,7 +236,7 @@ public class PoolManager : MonoBehaviour
             yield return StartCoroutine(CreateObjectsInPoolRoutine(prefab, parent, pool, defaultCapacity));
     }
 
-    void CreateObjectsInPool(Component prefab, Transform parent, IObjectPool<Component> pool, int defaultCapacity)
+    void CreateObjectsInPool(Component prefab, Transform parent, ObjectPool<Component> pool, int defaultCapacity)
     {
         SetTempVars(prefab, parent);
         var objectsCreated = new Component[defaultCapacity];
@@ -236,38 +244,28 @@ public class PoolManager : MonoBehaviour
         for (int i = 0; i < objectsCreated.Length; i++) // Si son muchos objetos se puede notar una pequeña baja en los FPS.
             objectsCreated[i] = pool.Get();
 
-        ReleaseComponents(pool, objectsCreated);
+        for (int i = 0; i < objectsCreated.Length; i++)
+            pool.Release(objectsCreated[i]);
     }
 
-    IEnumerator CreateObjectsInPoolRoutine(Component prefab, Transform parent, IObjectPool<Component> pool, int defaultCapacity)
-    {
-        var objectsCreated = new Component[defaultCapacity];
+    IEnumerator CreateObjectsInPoolRoutine(Component prefab, Transform parent, ObjectPool<Component> pool, int defaultCapacity)
+    {        
+        var objectsCreated = new List<Component>(defaultCapacity);
 
-        for (int i = 0; i < objectsCreated.Length; i++)
+        for (int i = 0; pool.CountAll < defaultCapacity; i++)
         {            
             SetTempVars(prefab, parent); // Esto tiene que hacerse dentro del for en caso que en el mismo frame otro pool inicie su creación
-            objectsCreated[i] = pool.Get(); // Este Get llamará a un Instantiate
+            objectsCreated.Add(pool.Get()); // Este Get llamará a un Instantiate
 
             if (i % creationOnStartWaitFrameAfter == 0)
                 yield return null;
         }
 
-        ReleaseComponents(pool, objectsCreated);
+        for (int i = 0; i < objectsCreated.Count; i++)
+            pool.Release(objectsCreated[i]);
     }
-
-    void ReleaseComponents(IObjectPool<Component> pool, Component[] components)
-    {
-        for (int i = 0; i < components.Length; i++)
-            pool.Release(components[i]);
-    }
-
-    void SetTempVars(Component prefab, Transform parent)
-    {
-        prefabTemp = prefab;
-        parentTemp = parent;
-    }
-
-    private Component CreateFunc()
+   
+    Component CreateFunc()
     {
         var component = Instantiate(prefabTemp, parentTemp);
         int gameObjectID = component.gameObject.GetInstanceID();
@@ -279,8 +277,7 @@ public class PoolManager : MonoBehaviour
         return component;
     }
 
-    private void OnReturnedToPool(Component obj) => obj.gameObject.SetActive(false);
+    void OnReturnedToPool(Component obj) => obj.gameObject.SetActive(false);
 
-    private void OnDestroyPoolObject(Component obj) => Destroy(obj.gameObject);
-    
+    void OnDestroyPoolObject(Component obj) => Destroy(obj.gameObject);
 }

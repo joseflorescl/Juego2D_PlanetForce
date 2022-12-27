@@ -38,9 +38,14 @@ public class GameManager : MonoBehaviour
         powerUpManager = FindObjectOfType<PowerUpManager>();
         powerUpManager?.SetPlayer(player);
         musicState = MusicState.Normal;
+
+#if UNITY_EDITOR
+        Application.targetFrameRate = 30;
+#endif
+
     }
-    
-    
+
+
     void Start()
     {
         gameplayData = GameDataRepository.GetById(GAMEDATA_KEY);

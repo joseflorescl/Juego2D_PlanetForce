@@ -1366,7 +1366,7 @@ MonoBehaviour:
   forceDestroy: 1
   defaultParent: {fileID: 0}
   creationOnStartWaitFrameAfter: 1
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: 820ea593dc399fe4a9192bdb169b7d8e, type: 2}
 --- !u!1 &303070804
 GameObject:
   m_ObjectHideFlags: 0
@@ -5477,7 +5477,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1304615471
 MonoBehaviour:
   m_ObjectHideFlags: 0

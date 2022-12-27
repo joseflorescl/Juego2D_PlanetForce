@@ -97,10 +97,22 @@ MonoBehaviour:
     maxSize: 20
     createPoolMode: 0
     createParent: 1
-  - name: Enemy Andor Genesis Bullet
-    prefab: {fileID: 632438701672326747, guid: 9cb6ea8bc8ffdc342938fa74d8993f62, type: 3}
-    defaultCapacity: 25
-    maxSize: 35
+  - name: Enemy Vulgus Mega
+    prefab: {fileID: 7629600940836163463, guid: 5f49c73362356684399ffcf0f5c1dbae, type: 3}
+    defaultCapacity: 10
+    maxSize: 15
+    createPoolMode: 0
+    createParent: 1
+  - name: Enemy Vulgus Yashichi
+    prefab: {fileID: 1383389308, guid: 66eea1289560ae646bca00425f333d5f, type: 3}
+    defaultCapacity: 10
+    maxSize: 15
+    createPoolMode: 0
+    createParent: 1
+  - name: Power Up - Challenge 1
+    prefab: {fileID: 401454390, guid: 2f74f531cb47e5d4db98722de5cc404e, type: 3}
+    defaultCapacity: 10
+    maxSize: 15
     createPoolMode: 0
     createParent: 1
   - name: Enemy Vulgus Mini  - Challenge 1
@@ -119,24 +131,6 @@ MonoBehaviour:
     prefab: {fileID: 7629600940836163463, guid: 51d6f82889d250a40a88fdabbc1a02dd, type: 3}
     defaultCapacity: 25
     maxSize: 35
-    createPoolMode: 0
-    createParent: 1
-  - name: Enemy Vulgus Mega
-    prefab: {fileID: 7629600940836163463, guid: 5f49c73362356684399ffcf0f5c1dbae, type: 3}
-    defaultCapacity: 10
-    maxSize: 15
-    createPoolMode: 0
-    createParent: 1
-  - name: Enemy Vulgus Yashichi
-    prefab: {fileID: 1383389308, guid: 66eea1289560ae646bca00425f333d5f, type: 3}
-    defaultCapacity: 10
-    maxSize: 15
-    createPoolMode: 0
-    createParent: 1
-  - name: Power Up - Challenge 1
-    prefab: {fileID: 401454390, guid: 2f74f531cb47e5d4db98722de5cc404e, type: 3}
-    defaultCapacity: 10
-    maxSize: 15
     createPoolMode: 0
     createParent: 1
   - name: Enemy Vulgus Yashichi - Challenge 4
@@ -221,6 +215,12 @@ MonoBehaviour:
     prefab: {fileID: 1685243571395497592, guid: 2415d394243f8274793bd016c87ab6d9, type: 3}
     defaultCapacity: 1
     maxSize: 1
+    createPoolMode: 0
+    createParent: 1
+  - name: Enemy Andor Genesis Bullet
+    prefab: {fileID: 632438701672326747, guid: 9cb6ea8bc8ffdc342938fa74d8993f62, type: 3}
+    defaultCapacity: 25
+    maxSize: 35
     createPoolMode: 0
     createParent: 1
   - name: Enemy Vulgus Yashichi - Inside Andor Genesis
