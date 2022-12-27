@@ -14,6 +14,8 @@ public class PoolManager : MonoBehaviour
          como cualquier script creado por nosotros que hereda de MonoBehaviour -> Behaviour -> Component
      * - Y en vez de hacer un Destroy del objeto, se reemplaza: Destroy(gameObject);
      *   por: PoolManager.Instance.Release(gameObject);
+     * - En el caso de querer usar este PoolManager con prefabs de tipo GameObject, también se puede usar la función:
+     *     public GameObject Get(GameObject prefab, Vector3 position, Quaternion rotation)
      * - NO es necesario realizar ninguna configuración adicional para que el Pool Manager empiece a funcionar.
      *   Si se desea tener un control más detallado de cuántos objetos tendrá cada pool de cada prefab,
      *   y si estos objetos se van a crear todos en el Start o se van a crear de a uno, se puede configurar 
@@ -88,6 +90,13 @@ public class PoolManager : MonoBehaviour
     {
         var obj = GetFromPool(prefab, parent);
         return (T)obj;
+    }
+
+    public GameObject Get(GameObject prefab, Vector3 position, Quaternion rotation)
+    {
+        Transform prefabTransform = prefab.transform;
+        var comp = Get(prefabTransform, position, rotation);
+        return comp.gameObject;
     }
 
     public bool Release(GameObject obj)
@@ -206,9 +215,6 @@ public class PoolManager : MonoBehaviour
 
         return pool;
     }
-
-   
-
 
     ObjectPool<Component> CreatePool(Component prefab, int defaultCapacity, int maxSize, bool createObjects, Transform parent)
     {

@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
         musicState = MusicState.Normal;
 
 #if UNITY_EDITOR
-        Application.targetFrameRate = 30;
+        Application.targetFrameRate = 60;
 #endif
 
     }
